@@ -89,9 +89,18 @@
       <DependentUpon>RAisoModel.edmx</DependentUpon>
       <LastGenOutput>RAisoModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Views\RegisterPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\UserFactory.cs" />
+    <Compile Include="Layouts\Navbar.Master.cs">
+      <DependentUpon>Navbar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Navbar.Master.designer.cs">
+      <DependentUpon>Navbar.Master</DependentUpon>
+    </Compile>
     <Compile Include="Models\Cart.cs">
       <DependentUpon>RAisoModel.tt</DependentUpon>
     </Compile>
@@ -123,6 +132,15 @@
       <DependentUpon>RAisoModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\DatabaseSingleton.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Views\RegisterPage.aspx.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\RegisterPage.aspx.designer.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Models\RAisoModel.edmx">
@@ -132,6 +150,7 @@
     <Content Include="Models\RAisoModel.edmx.diagram">
       <DependentUpon>RAisoModel.edmx</DependentUpon>
     </Content>
+    <Content Include="Layouts\Navbar.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -145,11 +164,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Factories\" />
     <Folder Include="Handlers\" />
-    <Folder Include="Repositories\" />
     <Folder Include="Styles\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
