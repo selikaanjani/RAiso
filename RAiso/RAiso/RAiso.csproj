@@ -89,17 +89,20 @@
       <DependentUpon>RAisoModel.edmx</DependentUpon>
       <LastGenOutput>RAisoModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Styles\styles.css" />
+    <Content Include="Views\HomePage.aspx" />
+    <Content Include="Views\LoginPage.aspx" />
     <Content Include="Views\RegisterPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factories\UserFactory.cs" />
-    <Compile Include="Layouts\Navbar.Master.cs">
-      <DependentUpon>Navbar.Master</DependentUpon>
+    <Compile Include="Layouts\NavbarCustomer.Master.cs">
+      <DependentUpon>NavbarCustomer.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Layouts\Navbar.Master.designer.cs">
-      <DependentUpon>Navbar.Master</DependentUpon>
+    <Compile Include="Layouts\NavbarCustomer.Master.designer.cs">
+      <DependentUpon>NavbarCustomer.Master</DependentUpon>
     </Compile>
     <Compile Include="Models\Cart.cs">
       <DependentUpon>RAisoModel.tt</DependentUpon>
@@ -134,6 +137,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\DatabaseSingleton.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Views\HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\RegisterPage.aspx.cs">
       <DependentUpon>RegisterPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -150,7 +167,7 @@
     <Content Include="Models\RAisoModel.edmx.diagram">
       <DependentUpon>RAisoModel.edmx</DependentUpon>
     </Content>
-    <Content Include="Layouts\Navbar.Master" />
+    <Content Include="Layouts\NavbarCustomer.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -165,7 +182,6 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Handlers\" />
-    <Folder Include="Styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
