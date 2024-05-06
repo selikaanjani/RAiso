@@ -104,6 +104,13 @@
     <Compile Include="Layouts\NavbarCustomer.Master.designer.cs">
       <DependentUpon>NavbarCustomer.Master</DependentUpon>
     </Compile>
+    <Compile Include="Layouts\NavbarGuest.Master.cs">
+      <DependentUpon>NavbarGuest.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\NavbarGuest.Master.designer.cs">
+      <DependentUpon>NavbarGuest.Master</DependentUpon>
+    </Compile>
     <Compile Include="Models\Cart.cs">
       <DependentUpon>RAisoModel.tt</DependentUpon>
     </Compile>
@@ -168,6 +175,7 @@
       <DependentUpon>RAisoModel.edmx</DependentUpon>
     </Content>
     <Content Include="Layouts\NavbarCustomer.Master" />
+    <Content Include="Layouts\NavbarGuest.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

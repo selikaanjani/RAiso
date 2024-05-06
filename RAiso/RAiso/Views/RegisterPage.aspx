@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layouts/NavbarCustomer.Master" AutoEventWireup="true" CodeBehind="RegisterPage.aspx.cs" Inherits="RAiso.Views.RegisterPage" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layouts/NavbarGuest.Master" AutoEventWireup="true" CodeBehind="RegisterPage.aspx.cs" Inherits="RAiso.Views.RegisterPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -10,7 +10,7 @@
         </div>
         <div>
             <asp:Label ID="DobLbl" runat="server" Text="DOB: "></asp:Label>
-            <asp:TextBox ID="DobTxt" runat="server"></asp:TextBox>
+            <asp:TextBox ID="DobTxt" runat="server" TextMode="Date"></asp:TextBox>
         </div>
         <div>
             <asp:Label ID="GenderLbl" runat="server" Text="Gender: "></asp:Label>
@@ -30,9 +30,9 @@
             <asp:TextBox ID="PhoneTxt" runat="server"></asp:TextBox>
         </div>
         <div>
-            <asp:Button ID="RegisterBtn" runat="server" Text="Register" />
+            <asp:Button ID="RegisterBtn" runat="server" Text="Register" OnClick="RegisterBtn_Click"/>
         </div>
-        <div>
+        <div style="color: red">
             <asp:Label ID="ErrorLbl" runat="server" Text=""></asp:Label>
         </div>
     </div>

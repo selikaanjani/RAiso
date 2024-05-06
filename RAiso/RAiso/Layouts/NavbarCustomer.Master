@@ -10,27 +10,27 @@
     <link href="~/Styles/styles.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <nav>
-        <h1>Raiso</h1>
-        <ul>
-            <li>
-                <a href="~/Views/HomePage.aspx">Home</a>
-            </li>
-            <li>
-                <a href="~/Views/UpdatePage.aspx">Update</a>
-            </li>
-            <li>
-                <a href="~/Views/CartPage.aspx">Cart</a>
-            </li>
-            <li>
-                <a href="~/Views/TransactionPage.aspx">Transaction</a>
-            </li>
-        </ul>
-        <div>
-            <asp:Button ID="Button1" runat="server" Text="Logout" />
-        </div>
-    </nav>
     <form id="form1" runat="server">
+        <nav>
+            <h1>Raiso</h1>
+            <ul>
+                <li>
+                    <a href="~/Views/HomePage.aspx" runat="server">Home</a>
+                </li>
+                <li>
+                    <a href="~/Views/UpdatePage.aspx" runat="server">Update</a>
+                </li>
+                <li>
+                    <a href="~/Views/CartPage.aspx" runat="server">Cart</a>
+                </li>
+                <li>
+                    <a href="~/Views/TransactionPage.aspx" runat="server">Transaction</a>
+                </li>
+            </ul>
+            <div>
+                <asp:Button ID="Button1" runat="server" Text="Logout" />
+            </div>
+        </nav>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

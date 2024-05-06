@@ -20,10 +20,33 @@ namespace RAiso.Repositories
             db.SaveChanges();
         }
 
-        public int GetLastUserId()
+        public MsUser GetLastUser()
         {
-            return (from x in db.MsUsers
-                    select x.UserID).LastOrDefault();
+            return(from x in db.MsUsers
+                   select x).ToList().LastOrDefault();
+        }
+
+        public bool IsNameUnique(String name)
+        {
+            MsUser user = (from x in db.MsUsers
+                           where x.UserName == name
+                           select x).FirstOrDefault();
+
+            if(user == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public MsUser GetUserByName(String name)
+        {
+            return(from x in db.MsUsers
+                    where x.UserName == name
+                    select x).FirstOrDefault();
         }
     }
 }
