@@ -12,7 +12,7 @@ namespace RAiso.Repositories
 
         public static RAisoDatabaseEntities GetInstance()
         {
-            if(db == null)
+            if (db == null)
             {
                 db = new RAisoDatabaseEntities();
             }

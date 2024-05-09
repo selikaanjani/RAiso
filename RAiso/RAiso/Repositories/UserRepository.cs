@@ -11,41 +11,46 @@ namespace RAiso.Repositories
 {
     public class UserRepository
     {
-        RAisoDatabaseEntities db = DatabaseSingleton.GetInstance();
+        private RAisoDatabaseEntities db = DatabaseSingleton.GetInstance();
 
-        public void CreateUser(int id, String name, String gender, DateTime dob, String phone, String address, String password, String role)
+        public void RegisterUser(int id, String name, String gender, DateTime dob, String phone, String address, String password, String role)
         {
             MsUser user = UserFactory.Create(id, name, gender, dob, phone, address, password, role);
             db.MsUsers.Add(user);
             db.SaveChanges();
         }
 
-        public MsUser GetLastUser()
+        public int GetRegisteredId()
         {
-            return(from x in db.MsUsers
-                   select x).ToList().LastOrDefault();
-        }
-
-        public bool IsNameUnique(String name)
-        {
-            MsUser user = (from x in db.MsUsers
-                           where x.UserName == name
-                           select x).FirstOrDefault();
-
-            if(user == null)
+            MsUser user = db.MsUsers.ToList().LastOrDefault();
+            if (user == null)
             {
-                return true;
+                return 1;
             }
             else
             {
-                return false;
+                return user.UserID + 1;
             }
         }
 
         public MsUser GetUserByName(String name)
         {
-            return(from x in db.MsUsers
-                    where x.UserName == name
+            return (from x in db.MsUsers
+                    where x.UserName.Equals(name)
+                    select x).FirstOrDefault();
+        }
+
+        public MsUser LoginUser(String name, String password)
+        {
+            return (from x in db.MsUsers
+                    where x.UserName.Equals(name) && x.UserPassword.Equals(password)
+                    select x).FirstOrDefault();
+        }
+
+        public MsUser GetUserById(int id)
+        {
+            return (from x in db.MsUsers
+                    where x.UserID == id
                     select x).FirstOrDefault();
         }
     }

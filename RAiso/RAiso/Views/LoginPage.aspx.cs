@@ -1,4 +1,5 @@
-﻿using RAiso.Models;
+﻿using RAiso.Controllers;
+using RAiso.Models;
 using RAiso.Repositories;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace RAiso.Views
 {
     public partial class LoginPage : System.Web.UI.Page
     {
-        UserRepository userRepo = new UserRepository();
+        UserController userController = new UserController();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -22,34 +23,15 @@ namespace RAiso.Views
         {
             String name = NameTxt.Text;
             String password = PasswordTxt.Text;
-            bool isRemember = RememberCb.Checked;
-            MsUser user = userRepo.GetUserByName(name);
+            String response = userController.DoLogin(name, password, RememberCb);
 
-            if(String.IsNullOrEmpty(name) || String.IsNullOrEmpty(password))
+            if (response.Equals("Login success!") == true)
             {
-                ErrorLbl.Text = "All fields must be filled!";
-            }
-            else if(user == null)
-            {
-                ErrorLbl.Text = "Couldn't find your account!";
-            }
-            else if(user.UserPassword != password)
-            {
-                ErrorLbl.Text = "Wrong password!";
+                Response.Redirect("~/Views/HomePage.aspx");
             }
             else
             {
-                Session["user"] = user;
-                
-                if(isRemember == true)
-                {
-                    HttpCookie cookie = new HttpCookie("user_cookie");
-                    cookie.Value = Convert.ToString(user.UserID);
-                    cookie.Expires = DateTime.Now.AddDays(1);
-                    Response.Cookies.Add(cookie);
-                }
-
-                Response.Redirect("~/Views/HomePage.aspx");
+                ErrorLbl.Text = response;
             }
         }
     }

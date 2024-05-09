@@ -96,20 +96,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Factories\UserFactory.cs" />
-    <Compile Include="Layouts\NavbarCustomer.Master.cs">
-      <DependentUpon>NavbarCustomer.Master</DependentUpon>
+    <Compile Include="Handlers\UserHandler.cs" />
+    <Compile Include="Layouts\Navbar.Master.cs">
+      <DependentUpon>Navbar.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Layouts\NavbarCustomer.Master.designer.cs">
-      <DependentUpon>NavbarCustomer.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Layouts\NavbarGuest.Master.cs">
-      <DependentUpon>NavbarGuest.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Layouts\NavbarGuest.Master.designer.cs">
-      <DependentUpon>NavbarGuest.Master</DependentUpon>
+    <Compile Include="Layouts\Navbar.Master.designer.cs">
+      <DependentUpon>Navbar.Master</DependentUpon>
     </Compile>
     <Compile Include="Models\Cart.cs">
       <DependentUpon>RAisoModel.tt</DependentUpon>
@@ -174,8 +169,7 @@
     <Content Include="Models\RAisoModel.edmx.diagram">
       <DependentUpon>RAisoModel.edmx</DependentUpon>
     </Content>
-    <Content Include="Layouts\NavbarCustomer.Master" />
-    <Content Include="Layouts\NavbarGuest.Master" />
+    <Content Include="Layouts\Navbar.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -187,10 +181,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Handlers\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
