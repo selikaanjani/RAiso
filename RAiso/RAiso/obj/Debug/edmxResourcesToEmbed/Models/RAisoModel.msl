@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RAisoDatabaseModelStoreContainer" CdmEntityContainer="RAisoDatabaseEntities">
+    <EntitySetMapping Name="Carts">
+      <EntityTypeMapping TypeName="RAisoDatabaseModel.Cart">
+        <MappingFragment StoreEntitySet="Carts">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="StationeryID" ColumnName="StationeryID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MsStationeries">
+      <EntityTypeMapping TypeName="RAisoDatabaseModel.MsStationery">
+        <MappingFragment StoreEntitySet="MsStationeries">
+          <ScalarProperty Name="StationeryID" ColumnName="StationeryID" />
+          <ScalarProperty Name="StationeryName" ColumnName="StationeryName" />
+          <ScalarProperty Name="StationeryPrice" ColumnName="StationeryPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MsUsers">
+      <EntityTypeMapping TypeName="RAisoDatabaseModel.MsUser">
+        <MappingFragment StoreEntitySet="MsUsers">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserGender" ColumnName="UserGender" />
+          <ScalarProperty Name="UserDOB" ColumnName="UserDOB" />
+          <ScalarProperty Name="UserPhone" ColumnName="UserPhone" />
+          <ScalarProperty Name="UserAddress" ColumnName="UserAddress" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionDetails">
+      <EntityTypeMapping TypeName="RAisoDatabaseModel.TransactionDetail">
+        <MappingFragment StoreEntitySet="TransactionDetails">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="StationeryID" ColumnName="StationeryID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionHeaders">
+      <EntityTypeMapping TypeName="RAisoDatabaseModel.TransactionHeader">
+        <MappingFragment StoreEntitySet="TransactionHeaders">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

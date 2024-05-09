@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Navbar.master.cs" Inherits="RAiso.Layouts.Navbar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/Styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar">
+            <h1>Raiso</h1>
+            <ul>
+                <li>
+                    <a href="~/Views/LoginPage.aspx" runat="server" visible="false" id="LoginLink">Login</a>
+                </li>
+                <li>
+                    <a href="~/Views/HomePage.aspx" runat="server" visible="false" id="HomeLink">Home</a>
+                </li>
+                <li>
+                    <a href="#" runat="server" visible="false" id="UpdateLink">Update</a>
+                </li>
+                <li>
+                    <a href="#" runat="server" visible="false" id="CartLink">Cart</a>
+                </li>
+                <li>
+                    <a href="#" runat="server" visible="false" id="TransactionLink">Transaction</a>
+                </li>
+                <li>
+                    <a href="~/Views/RegisterPage.aspx" runat="server" visible="false" id="RegisterLink">Register</a>
+                </li>
+            </ul>
+            <div>
+                <asp:Button ID="LogoutBtn" runat="server" Text="Logout" Visible="false" OnClick="LogoutBtn_Click" />
+            </div>
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
