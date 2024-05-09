@@ -4,6 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
+        <asp:Button ID="InsertBtn" runat="server" Text="Insert another stationeries here!" />
+    </div>
+    <div>
         <h3>Raiso's stationeries</h3>
     </div>
     <div>
