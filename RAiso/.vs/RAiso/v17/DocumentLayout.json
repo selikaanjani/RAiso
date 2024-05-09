@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\users\\selika anjani\\onedrive - bina nusantara\\documents\\github\\raiso\\raiso\\raiso\\views\\insertpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\insertpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\users\\selika anjani\\onedrive - bina nusantara\\documents\\github\\raiso\\raiso\\raiso\\views\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\raiso\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\raiso\\layouts\\navbar.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\layouts\\navbar.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\raiso\\layouts\\navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\users\\selika anjani\\onedrive - bina nusantara\\documents\\github\\raiso\\raiso\\raiso\\layouts\\navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\layouts\\navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\raiso\\factories\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\factories\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\raiso\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\raiso\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\users\\selika anjani\\onedrive - bina nusantara\\documents\\github\\raiso\\raiso\\raiso\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,71 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Navbar.Master.cs",
-              "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Layouts\\Navbar.Master.cs",
-              "RelativeDocumentMoniker": "RAiso\\Layouts\\Navbar.Master.cs",
-              "ToolTip": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Layouts\\Navbar.Master.cs",
-              "RelativeToolTip": "RAiso\\Layouts\\Navbar.Master.cs",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Styles\\styles.css",
+              "RelativeDocumentMoniker": "RAiso\\Styles\\styles.css",
+              "ToolTip": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Styles\\styles.css",
+              "RelativeToolTip": "RAiso\\Styles\\styles.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
-              "WhenOpened": "2024-05-09T16:21:07.579Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-09T16:26:57.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Navbar.Master",
               "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Layouts\\Navbar.Master",
               "RelativeDocumentMoniker": "RAiso\\Layouts\\Navbar.Master",
               "ToolTip": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Layouts\\Navbar.Master",
               "RelativeToolTip": "RAiso\\Layouts\\Navbar.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-09T16:21:07.579Z",
+              "WhenOpened": "2024-05-09T16:26:50.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Factories\\UserFactory.cs",
-              "RelativeDocumentMoniker": "RAiso\\Factories\\UserFactory.cs",
-              "ToolTip": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Factories\\UserFactory.cs",
-              "RelativeToolTip": "RAiso\\Factories\\UserFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:21:07.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Handlers\\UserHandler.cs",
-              "RelativeDocumentMoniker": "RAiso\\Handlers\\UserHandler.cs",
-              "ToolTip": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Handlers\\UserHandler.cs",
-              "RelativeToolTip": "RAiso\\Handlers\\UserHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:21:07.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "RAiso\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Controllers\\UserController.cs",
-              "RelativeToolTip": "RAiso\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:21:07.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomePage.aspx",
               "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Views\\HomePage.aspx",
               "RelativeDocumentMoniker": "RAiso\\Views\\HomePage.aspx",
@@ -110,20 +64,21 @@
               "RelativeToolTip": "RAiso\\Views\\HomePage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-09T16:21:07.893Z",
+              "WhenOpened": "2024-05-09T16:24:35.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPage.aspx",
-              "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Views\\LoginPage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\LoginPage.aspx",
-              "ToolTip": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Views\\LoginPage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\LoginPage.aspx",
+              "DocumentIndex": 0,
+              "Title": "InsertPage.aspx",
+              "DocumentMoniker": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Views\\InsertPage.aspx",
+              "RelativeDocumentMoniker": "RAiso\\Views\\InsertPage.aspx",
+              "ToolTip": "C:\\Users\\Selika Anjani\\OneDrive - Bina Nusantara\\Documents\\GitHub\\RAiso\\RAiso\\RAiso\\Views\\InsertPage.aspx",
+              "RelativeToolTip": "RAiso\\Views\\InsertPage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
-              "WhenOpened": "2024-05-09T16:21:07.547Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-09T16:24:28.664Z",
+              "EditorCaption": ""
             }
           ]
         }
