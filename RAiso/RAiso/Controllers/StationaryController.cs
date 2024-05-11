@@ -13,27 +13,26 @@ namespace RAiso.Controllers
     public class StationaryController
     {
         private StationeryHandler sh = new StationeryHandler();
-        public String validasiInsert(String name, int price)
+        public String validasiInsert(String name, string price)
         {
-            if (String.IsNullOrEmpty(name) || name == null)
+            if (String.IsNullOrEmpty(name) || (String.IsNullOrEmpty(price)))
             {
-                return "Name must be filled!";
-                
+                return "All fields must be filled!";
+
             }
-            else if(name.Length <= 3 || name.Length >= 50)
+            else if (name.Length <= 3 || name.Length >= 50)
             {
                 return "Name must be consists of 3-50 characters!";
             }
             //price
-            else if (String.IsNullOrEmpty(price.ToString()) || price == 0)
+            else
             {
-                return "Price must be filled!";
+                if (Convert.ToInt32(price) < 2000 || !Numeric(Convert.ToInt32(price)))
+                {
+                    return "Price must be numeric, and greather than 2000!";
+                }
+                return "Add stationary success!";
             }
-            else if(price < 2000 || !Numeric(price))
-            {
-                return "Price must be numeric, and greather than 2000!";
-            }
-            return "Add stationary success!";
         }
 
         public bool Numeric(int price)

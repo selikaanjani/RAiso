@@ -39,11 +39,13 @@ namespace RAiso.Views
         {
             int id = int.Parse(Request["ID"]);
             String name = NameTBUpdate.Text;
-            int price = Convert.ToInt32(PriceTBUpdate.Text);
+            String price = PriceTBUpdate.Text;
             String response = sc.validasiInsert(name, price);
+            
             if (response.Equals("Add stationary success!") == true)
             {
-                sh.updateStationary(id, name, price);
+                int harga = Convert.ToInt32(PriceTBUpdate.Text);
+                sh.updateStationary(id, name, harga);
                 Response.Redirect("~/Views/HomePage.aspx");
             }
             else

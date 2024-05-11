@@ -1,4 +1,5 @@
-﻿using RAiso.Handlers;
+﻿using RAiso.Controllers;
+using RAiso.Handlers;
 using RAiso.Models;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace RAiso.Views
     public partial class StationaryDetail : System.Web.UI.Page
     {
         StationeryHandler sh = new StationeryHandler();
-        CartHandler ch = new CartHandler();
+        CartController cc = new CartController();   
         MsUser user;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -91,7 +92,7 @@ namespace RAiso.Views
         protected void AddToCart_Click(object sender, EventArgs e)
         {
             int qty = Convert.ToInt32(QtyTB.Text);
-            String response = ch.validateQty(qty);
+            String response = cc.validateQty(qty);
             if (response.Equals("Add to cart success!") == true)
             {
                 Response.Redirect("~/Views/CartPage.aspx");

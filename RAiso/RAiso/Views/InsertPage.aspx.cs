@@ -24,11 +24,12 @@ namespace RAiso.Views
         {
             int id = sh.buatID();
             String name = NameTB.Text;
-            int price = Convert.ToInt32(PriceTB.Text);
+            String price = PriceTB.Text;
             String response = sc.validasiInsert(name, price);
             if (response.Equals("Add stationary success!") == true)
             {
-                sh.add(id, name, price);
+                int harga = Convert.ToInt32(PriceTB.Text);
+                sh.add(id, name, harga);
                 Response.Redirect("~/Views/HomePage.aspx");
             }
             else

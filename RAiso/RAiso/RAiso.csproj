@@ -101,11 +101,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\StationaryController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Factories\StationaryFactory.cs" />
     <Compile Include="Factories\UserFactory.cs" />
-    <Compile Include="Handlers\CartHandler.cs" />
     <Compile Include="Handlers\StationeryHandler.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Layouts\Navbar.Master.cs">
