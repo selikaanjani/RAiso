@@ -91,10 +91,11 @@ namespace RAiso.Views
 
         protected void AddToCart_Click(object sender, EventArgs e)
         {
-            int qty = Convert.ToInt32(QtyTB.Text);
+            String qty = QtyTB.Text;
             String response = cc.validateQty(qty);
             if (response.Equals("Add to cart success!") == true)
             {
+                int kuantiti = Convert.ToInt32(QtyTB.Text);
                 Response.Redirect("~/Views/CartPage.aspx");
             }
             else

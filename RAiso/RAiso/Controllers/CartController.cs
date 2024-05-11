@@ -7,13 +7,13 @@ namespace RAiso.Controllers
 {
     public class CartController
     {
-        public String validateQty(int qty)
+        public String validateQty(String qty)
         {
-            if (String.IsNullOrEmpty(qty.ToString()))
+            if (String.IsNullOrEmpty(qty))
             {
                 return "Quantity must be filled!";
             }
-            else if (qty < 0)
+            else if (Convert.ToInt32(qty) < 0)
             {
                 return "Quantity must be greater than 0!";
             }
