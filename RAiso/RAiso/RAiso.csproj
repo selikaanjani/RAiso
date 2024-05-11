@@ -90,15 +90,23 @@
       <LastGenOutput>RAisoModel.cs</LastGenOutput>
     </Content>
     <Content Include="Styles\styles.css" />
+    <Content Include="Views\CartPage.aspx" />
     <Content Include="Views\HomePage.aspx" />
     <Content Include="Views\InsertPage.aspx" />
     <Content Include="Views\LoginPage.aspx" />
     <Content Include="Views\RegisterPage.aspx" />
+    <Content Include="Views\StationaryDetail.aspx" />
+    <Content Include="Views\UpdatePage.aspx" />
+    <Content Include="Views\UpdateProfile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\StationaryController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Factories\StationaryFactory.cs" />
     <Compile Include="Factories\UserFactory.cs" />
+    <Compile Include="Handlers\CartHandler.cs" />
+    <Compile Include="Handlers\StationeryHandler.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Layouts\Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
@@ -139,7 +147,15 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\DatabaseSingleton.cs" />
+    <Compile Include="Repositories\StationeryRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Views\CartPage.aspx.cs">
+      <DependentUpon>CartPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CartPage.aspx.designer.cs">
+      <DependentUpon>CartPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -167,6 +183,27 @@
     </Compile>
     <Compile Include="Views\RegisterPage.aspx.designer.cs">
       <DependentUpon>RegisterPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StationaryDetail.aspx.cs">
+      <DependentUpon>StationaryDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\StationaryDetail.aspx.designer.cs">
+      <DependentUpon>StationaryDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdatePage.aspx.cs">
+      <DependentUpon>UpdatePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\UpdatePage.aspx.designer.cs">
+      <DependentUpon>UpdatePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateProfile.aspx.cs">
+      <DependentUpon>UpdateProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\UpdateProfile.aspx.designer.cs">
+      <DependentUpon>UpdateProfile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

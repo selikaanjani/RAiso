@@ -53,5 +53,13 @@ namespace RAiso.Repositories
                     where x.UserID == id
                     select x).FirstOrDefault();
         }
+
+        public String GetRoles(String role)
+        {
+            return (from x in db.MsUsers
+                    select x.UserRole).FirstOrDefault();
+        }
+
+
     }
 }

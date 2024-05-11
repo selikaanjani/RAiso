@@ -24,6 +24,9 @@
                     <a href="#" runat="server" visible="false" id="UpdateLink">Update</a>
                 </li>
                 <li>
+                    <a href="~/Views/UpdateProfile.aspx" runat="server" visible="false" id="UpdateProfileLink">Update Profile</a>
+                </li>
+                <li>
                     <a href="#" runat="server" visible="false" id="CartLink">Cart</a>
                 </li>
                 <li>

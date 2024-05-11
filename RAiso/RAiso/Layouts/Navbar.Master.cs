@@ -17,6 +17,7 @@ namespace RAiso.Layouts
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Guest
             if (Session["user"] == null && Request.Cookies["user_cookie"] == null)
             {
                 LoginLink.Visible = true;
@@ -37,16 +38,17 @@ namespace RAiso.Layouts
                 {
                     user = (MsUser)Session["user"];
                 }
-
+                //customer
                 if (user.UserRole.Equals("Customer"))
                 {
                     HomeLink.Visible = true;
-                    UpdateLink.Visible = true;
+                    UpdateProfileLink.Visible = true;
                     CartLink.Visible = true;
                     TransactionLink.Visible = true;
                     LogoutBtn.Visible = true;
                 }
                 else
+                //admin
                 {
                     HomeLink.Visible = true;
                     UpdateLink.Visible = true;

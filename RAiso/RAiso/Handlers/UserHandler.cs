@@ -39,5 +39,11 @@ namespace RAiso.Handlers
             MsUser user = userRepo.GetUserById(id);
             return user;
         }
+
+        public String GetUserByRole(String role)
+        {
+            string roles = userRepo.GetRoles(role);
+            return roles;
+        }
     }
 }
