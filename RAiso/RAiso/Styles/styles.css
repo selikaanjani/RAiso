@@ -1,0 +1,114 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #DEE2E6;
+}
+
+    .navbar h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #343A40;
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+        .navbar ul li {
+            margin: 0 1rem;
+        }
+
+            .navbar ul li a {
+                text-decoration: none;
+            }
+
+/* Style GV */
+#StGV {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+    #StGV th {
+        background-color: #495057;
+        color: white;
+        padding: 8px;
+        text-align: left;
+        border-bottom: 2px solid #ddd;
+    }
+
+    #StGV td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #StGV tr:nth-child(even) {
+        background-color: #DEE2E6;
+    }
+
+    #StGV tr:hover {
+        background-color: #ddd;
+    }
+
+#InsertBtn {
+    background-color: #495057;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    #InsertBtn:hover {
+        background-color: #005f75;
+    }
+
+#StGV .grid-actions {
+    text-align: center;
+}
+
+    #StGV .grid-actions .btn-action {
+        padding: 5px 10px;
+        margin: 2px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+        #StGV .grid-actions .btn-action.edit {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+
+            #StGV .grid-actions .btn-action.edit:hover {
+                background-color: #45a049;
+            }
+
+        #StGV .grid-actions .btn-action.delete {
+            background-color: #f44336;
+            color: white;
+            border: none;
+        }
+
+            #StGV .grid-actions .btn-action.delete:hover {
+                background-color: #da190b;
+            }
