@@ -24,6 +24,10 @@ namespace RAiso.Handlers
         {
             return sr.search(id);
         }
+        public MsStationery searchByName(String StationeryName)
+        {
+            return sr.searchName(StationeryName);
+        }
         public void deleteStationary(int id)
         {
             sr.delete(id);

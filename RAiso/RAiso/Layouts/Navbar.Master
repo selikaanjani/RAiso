@@ -7,7 +7,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="~/Views//Styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -27,10 +27,10 @@
                     <a href="~/Views/UpdateProfile.aspx" runat="server" visible="false" id="UpdateProfileLink">Update Profile</a>
                 </li>
                 <li>
-                    <a href="#" runat="server" visible="false" id="CartLink">Cart</a>
+                    <a href="~/Views/CartPage.aspx" runat="server" visible="false" id="CartLink">Cart</a>
                 </li>
                 <li>
-                    <a href="#" runat="server" visible="false" id="TransactionLink">Transaction</a>
+                    <a href="~/Views/TransactionHistoryPage.aspx" runat="server" visible="false" id="TransactionLink">Transaction</a>
                 </li>
                 <li>
                     <a href="~/Views/RegisterPage.aspx" runat="server" visible="false" id="RegisterLink">Register</a>

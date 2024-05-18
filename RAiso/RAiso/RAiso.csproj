@@ -91,11 +91,14 @@
     </Content>
     <Content Include="Styles\styles.css" />
     <Content Include="Views\CartPage.aspx" />
+    <Content Include="Views\CartUpdatePage.aspx" />
     <Content Include="Views\HomePage.aspx" />
     <Content Include="Views\InsertPage.aspx" />
     <Content Include="Views\LoginPage.aspx" />
     <Content Include="Views\RegisterPage.aspx" />
     <Content Include="Views\StationaryDetail.aspx" />
+    <Content Include="Views\TransactionDetailPage.aspx" />
+    <Content Include="Views\TransactionHistoryPage.aspx" />
     <Content Include="Views\UpdatePage.aspx" />
     <Content Include="Views\UpdateProfile.aspx" />
     <Content Include="Web.config" />
@@ -104,9 +107,14 @@
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\StationaryController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Factories\CartFactory.cs" />
     <Compile Include="Factories\StationaryFactory.cs" />
+    <Compile Include="Factories\TransactionDetailFactory.cs" />
+    <Compile Include="Factories\TransactionHeaderFactory.cs" />
     <Compile Include="Factories\UserFactory.cs" />
+    <Compile Include="Handlers\CartHandlers.cs" />
     <Compile Include="Handlers\StationeryHandler.cs" />
+    <Compile Include="Handlers\TransactionHeaderHandlers.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Layouts\Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
@@ -146,8 +154,10 @@
       <DependentUpon>RAisoModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CartRepository.cs" />
     <Compile Include="Repositories\DatabaseSingleton.cs" />
     <Compile Include="Repositories\StationeryRepository.cs" />
+    <Compile Include="Repositories\TransactionHeaderRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Views\CartPage.aspx.cs">
       <DependentUpon>CartPage.aspx</DependentUpon>
@@ -155,6 +165,13 @@
     </Compile>
     <Compile Include="Views\CartPage.aspx.designer.cs">
       <DependentUpon>CartPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CartUpdatePage.aspx.cs">
+      <DependentUpon>CartUpdatePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CartUpdatePage.aspx.designer.cs">
+      <DependentUpon>CartUpdatePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
@@ -190,6 +207,20 @@
     </Compile>
     <Compile Include="Views\StationaryDetail.aspx.designer.cs">
       <DependentUpon>StationaryDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TransactionDetailPage.aspx.cs">
+      <DependentUpon>TransactionDetailPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\TransactionDetailPage.aspx.designer.cs">
+      <DependentUpon>TransactionDetailPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TransactionHistoryPage.aspx.cs">
+      <DependentUpon>TransactionHistoryPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\TransactionHistoryPage.aspx.designer.cs">
+      <DependentUpon>TransactionHistoryPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\UpdatePage.aspx.cs">
       <DependentUpon>UpdatePage.aspx</DependentUpon>
