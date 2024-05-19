@@ -7,7 +7,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="~/Views//Styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
