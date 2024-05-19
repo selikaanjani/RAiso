@@ -13,7 +13,7 @@ namespace RAiso.Controllers
             {
                 return "Quantity must be filled!";
             }
-            else if (Convert.ToInt32(qty) < 0)
+            else if (Convert.ToInt32(qty) <= 0)
             {
                 return "Quantity must be greater than 0!";
             }

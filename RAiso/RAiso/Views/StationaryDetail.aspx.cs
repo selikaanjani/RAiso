@@ -16,7 +16,8 @@ namespace RAiso.Views
     public partial class StationaryDetail : System.Web.UI.Page
     {
         StationeryHandler sh = new StationeryHandler();
-        CartController cc = new CartController();   
+        CartController cc = new CartController(); 
+        CartHandlers ch = new CartHandlers();
         MsUser user;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -96,6 +97,10 @@ namespace RAiso.Views
             if (response.Equals("Add to cart success!") == true)
             {
                 int kuantiti = Convert.ToInt32(QtyTB.Text);
+                int id = int.Parse(Request["ID"]);
+                MsUser user = (MsUser)Session["user"];
+                int userID = user.UserID;
+                ch.add(userID, id, kuantiti);
                 Response.Redirect("~/Views/CartPage.aspx");
             }
             else

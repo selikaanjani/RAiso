@@ -22,6 +22,12 @@ namespace RAiso.Repositories
                     where x.StationeryID == id
                     select x).ToList().FirstOrDefault();
         }
+        public MsStationery searchName(String StationeryName)
+        {
+            return (from x in db.MsStationeries
+                    where x.StationeryName == StationeryName
+                    select x).ToList().FirstOrDefault();
+        }
         public int generateId()
         {
             MsStationery st = db.MsStationeries.ToList().LastOrDefault();
