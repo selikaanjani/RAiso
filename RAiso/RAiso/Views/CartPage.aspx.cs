@@ -11,7 +11,7 @@ namespace RAiso.Views
 {
     public partial class CartPage : System.Web.UI.Page
     {
-        CartHandlers ch = new CartHandlers();
+        CartHandler ch = new CartHandler();
         StationeryHandler sh = new StationeryHandler();
         protected void Page_Load(object sender, EventArgs e)
         {

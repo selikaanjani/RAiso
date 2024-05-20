@@ -7,7 +7,7 @@ using System.Web;
 
 namespace RAiso.Handlers
 {
-    public class TransactionHeaderHandlers
+    public class TransactionHeaderHandler
     {
         TransactionHeaderRepository thr = new TransactionHeaderRepository();
         public void add(int TransactionId, int UserId, DateTime TransactionDate)

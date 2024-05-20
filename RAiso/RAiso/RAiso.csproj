@@ -112,9 +112,9 @@
     <Compile Include="Factories\TransactionDetailFactory.cs" />
     <Compile Include="Factories\TransactionHeaderFactory.cs" />
     <Compile Include="Factories\UserFactory.cs" />
-    <Compile Include="Handlers\CartHandlers.cs" />
+    <Compile Include="Handlers\CartHandler.cs" />
     <Compile Include="Handlers\StationeryHandler.cs" />
-    <Compile Include="Handlers\TransactionHeaderHandlers.cs" />
+    <Compile Include="Handlers\TransactionHeaderHandler.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Layouts\Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>

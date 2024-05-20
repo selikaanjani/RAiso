@@ -8,7 +8,7 @@ namespace RAiso.Controllers
 {
     public class CartController
     {
-        CartHandlers ch = new CartHandlers();
+        CartHandler ch = new CartHandler();
         public String validateQty(String qty)
         {
             if (String.IsNullOrEmpty(qty))

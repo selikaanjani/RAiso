@@ -10,7 +10,7 @@ namespace RAiso.Views
 {
     public partial class TransactionHistoryPage : System.Web.UI.Page
     {
-        TransactionHeaderHandlers thh = new TransactionHeaderHandlers();
+        TransactionHeaderHandler thh = new TransactionHeaderHandler();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)

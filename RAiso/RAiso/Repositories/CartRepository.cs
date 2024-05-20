@@ -52,7 +52,7 @@ namespace RAiso.Repositories
         }
         public void checkout(int UserID)
         {
-            TransactionHeaderHandlers thh = new TransactionHeaderHandlers();
+            TransactionHeaderHandler thh = new TransactionHeaderHandler();
             Cart cart = searchByUserID(UserID);
             DateTime date = DateTime.Now;
             thh.add(thh.generateID(), UserID, date);

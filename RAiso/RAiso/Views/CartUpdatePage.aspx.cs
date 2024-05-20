@@ -13,7 +13,7 @@ namespace RAiso.Views
     public partial class CartUpdatePage : System.Web.UI.Page
     {
         StationeryHandler sh = new StationeryHandler();
-        CartHandlers ch = new CartHandlers();
+        CartHandler ch = new CartHandler();
         CartController cc = new CartController();
         protected void Page_Load(object sender, EventArgs e)
         {

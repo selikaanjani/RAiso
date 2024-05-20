@@ -7,7 +7,7 @@ using System.Web;
 
 namespace RAiso.Handlers
 {
-    public class CartHandlers
+    public class CartHandler
     {
         CartRepository cr = new CartRepository();
         public List<Cart> fetchAll()
