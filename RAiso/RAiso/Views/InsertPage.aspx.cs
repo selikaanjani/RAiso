@@ -14,7 +14,7 @@ namespace RAiso.Views
 {
     public partial class InsertPage : System.Web.UI.Page
     {
-        StationaryController sc = new StationaryController();
+        StationeryController sc = new StationeryController();
         protected void Page_Load(object sender, EventArgs e)
         {
 

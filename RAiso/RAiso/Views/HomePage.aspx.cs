@@ -17,7 +17,7 @@ namespace RAiso.Views
     public partial class HomePage : System.Web.UI.Page
     {
         UserController uc = new UserController();
-        StationaryController sc = new StationaryController();
+        StationeryController sc = new StationeryController();
         public List<MsStationery> stationeries = new List<MsStationery>();
 
         protected void Page_Load(object sender, EventArgs e)

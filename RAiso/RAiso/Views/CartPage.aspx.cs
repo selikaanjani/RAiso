@@ -1,4 +1,5 @@
-﻿using RAiso.Handlers;
+﻿using RAiso.Controllers;
+using RAiso.Handlers;
 using RAiso.Models;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,9 @@ namespace RAiso.Views
 {
     public partial class CartPage : System.Web.UI.Page
     {
-        CartHandler ch = new CartHandler();
-        StationeryHandler sh = new StationeryHandler();
+        CartController cartController = new CartController();
+        StationeryController stationeryController = new StationeryController();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -33,7 +35,7 @@ namespace RAiso.Views
 
         public void refreshGV()
         {
-            CartGV.DataSource = ch.fetchAll();
+            CartGV.DataSource = cartController.FetchAll();
             CartGV.DataBind();
         }
 
@@ -41,8 +43,7 @@ namespace RAiso.Views
         {
             GridViewRow row = CartGV.Rows[e.NewEditIndex];
             String Name = Convert.ToString(row.Cells[0].Text); //ambil id dari column paling kiri
-            MsStationery stationery = sh.searchByName(Name);
-            int stId = stationery.StationeryID;
+            int stId = stationeryController.getStationeryIdByName(Name);
             Response.Redirect("~/Views/CartUpdatePage.aspx?id=" + stId);
             refreshGV();
         }
@@ -53,9 +54,8 @@ namespace RAiso.Views
             int UserID = user.UserID;
             GridViewRow row = CartGV.Rows[e.RowIndex];
             String Name = Convert.ToString(row.Cells[0].Text); //ambil id dari column paling kiri
-            MsStationery stationery = sh.searchByName(Name);
-            int stId = stationery.StationeryID;
-            ch.delete(UserID, stId);
+            int stId = stationeryController.getStationeryIdByName(Name);
+            cartController.delete(UserID, stId);
             refreshGV();
             Response.Redirect("~/Views/CartPage.aspx");
         }

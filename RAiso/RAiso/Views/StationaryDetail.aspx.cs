@@ -16,7 +16,7 @@ namespace RAiso.Views
     public partial class StationaryDetail : System.Web.UI.Page
     {
         CartController cc = new CartController();
-        StationaryController sc = new StationaryController();
+        StationeryController sc = new StationeryController();
         MsUser user;
         protected void Page_Load(object sender, EventArgs e)
         {

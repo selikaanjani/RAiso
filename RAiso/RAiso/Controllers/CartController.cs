@@ -1,4 +1,5 @@
 ﻿using RAiso.Handlers;
+using RAiso.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,16 @@ namespace RAiso.Controllers
         public void add(int UserID, int stationaryId, int Quantity)
         {
             ch.add(UserID, stationaryId, Quantity);
+        }
+
+        public List<Cart> FetchAll()
+        {
+            return ch.fetchAll();
+        }
+
+        public void delete(int UserID, int stationaryID)
+        {
+            ch.delete(UserID, stationaryID);
         }
     }
 }
