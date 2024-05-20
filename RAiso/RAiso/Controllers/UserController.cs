@@ -133,5 +133,10 @@ namespace RAiso.Controllers
             HttpContext.Current.Session.Remove("user");
             HttpContext.Current.Response.Cookies["user_cookie"].Expires = DateTime.Now.AddDays(-1);
         }
+
+        public MsUser getUserID(int id)
+        {
+            return userHandler.GetUserById(id);
+        }
     }
 }

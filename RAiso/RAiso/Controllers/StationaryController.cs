@@ -49,5 +49,34 @@ namespace RAiso.Controllers
             }
             return isDigit;
         }
+
+        public List<MsStationery> viewAllStationary()
+        {
+            return sh.getAllStationery();
+        }
+
+        public void popStationary(int id)
+        {
+            sh.deleteStationary(id);
+        }
+
+        public int createID()
+        {
+            return sh.buatID();
+        }
+        public void createStationary(int id, String name, int price)
+        {
+            sh.add(id, name, price); 
+        }
+
+        public MsStationery searchById(int id)
+        {
+            return sh.searchById(id);
+        }
+
+        public void updateStationary(int id, String name, int price)
+        {
+            sh.updateStationary(id, name, price);
+        }
     }
 }

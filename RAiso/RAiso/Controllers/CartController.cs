@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RAiso.Handlers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,6 +8,7 @@ namespace RAiso.Controllers
 {
     public class CartController
     {
+        CartHandlers ch = new CartHandlers();
         public String validateQty(String qty)
         {
             if (String.IsNullOrEmpty(qty))
@@ -21,6 +23,11 @@ namespace RAiso.Controllers
             {
                 return "Add to cart success!";
             }
+        }
+
+        public void add(int UserID, int stationaryId, int Quantity)
+        {
+            ch.add(UserID, stationaryId, Quantity);
         }
     }
 }
