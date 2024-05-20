@@ -114,6 +114,7 @@
     <Compile Include="Factories\UserFactory.cs" />
     <Compile Include="Handlers\CartHandlers.cs" />
     <Compile Include="Handlers\StationeryHandler.cs" />
+    <Compile Include="Handlers\TransactionDetailHandler.cs" />
     <Compile Include="Handlers\TransactionHeaderHandlers.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Layouts\Navbar.Master.cs">
@@ -157,6 +158,7 @@
     <Compile Include="Repositories\CartRepository.cs" />
     <Compile Include="Repositories\DatabaseSingleton.cs" />
     <Compile Include="Repositories\StationeryRepository.cs" />
+    <Compile Include="Repositories\TransactionDetailRepositiory.cs" />
     <Compile Include="Repositories\TransactionHeaderRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Views\CartPage.aspx.cs">

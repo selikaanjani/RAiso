@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
 
 namespace RAiso.Views
 {
@@ -24,9 +25,25 @@ namespace RAiso.Views
 
         protected void BtnCheckout_Click(object sender, EventArgs e)
         {
+            TransactionHeaderHandlers thh = new TransactionHeaderHandlers();
+            TransactionDetailHandler tdh = new TransactionDetailHandler();
+
             MsUser user = (MsUser)Session["user"];
             int UserID = user.UserID;
-            ch.checkout(UserID);
+            
+            
+
+            List<Cart> carts = getAllUserID(UserID);
+            DateTime date = DateTime.Now;
+
+            thh.add(thh.generateID(), UserID, date);
+
+            foreach (Cart cart in carts)
+            {
+
+            }
+            db.SaveChanges();
+            ch.deleteAll(UserID);
             refreshGV();
             Response.Redirect("~/Views/HomePage.aspx");
         }

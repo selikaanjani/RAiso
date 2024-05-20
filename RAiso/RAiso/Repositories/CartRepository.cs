@@ -17,11 +17,11 @@ namespace RAiso.Repositories
                     where x.UserID == UserID && x.StationeryID == StationeryID
                     select x).ToList().FirstOrDefault();
         }
-        public Cart searchByUserID(int UserID)
+        public List<Cart> getAllByUserID(int UserID)
         {
             return (from x in db.Carts
                     where x.UserID == UserID
-                    select x).ToList().FirstOrDefault();
+                    select x).ToList();
         }
         public List<Cart> fetchAll()
         {
@@ -42,6 +42,16 @@ namespace RAiso.Repositories
             db.SaveChanges();
         }
 
+        public void deleteAll(int UserID)
+        {
+            List<Cart> carts = getAllByUserID(UserID);
+            foreach (Cart cart in carts)
+            {
+                db.Carts.Remove(cart);
+            }
+            db.SaveChanges();
+        }
+
         public void Update(int UserID, int StationeryID, int Quantity)
         {
             Cart cart = search(UserID, StationeryID);
@@ -50,15 +60,5 @@ namespace RAiso.Repositories
             cart.Quantity = Quantity;
             db.SaveChanges();
         }
-        public void checkout(int UserID)
-        {
-            TransactionHeaderHandlers thh = new TransactionHeaderHandlers();
-            Cart cart = searchByUserID(UserID);
-            DateTime date = DateTime.Now;
-            thh.add(thh.generateID(), UserID, date);
-            db.Carts.Remove(cart);
-            db.SaveChanges();
-        }
-
     }
 }

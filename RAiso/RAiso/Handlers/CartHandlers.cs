@@ -26,9 +26,15 @@ namespace RAiso.Handlers
         {
             cr.Update(UserID, staionaryID, Quantity);
         }
-        public void checkout(int UserID)
+
+        public void deleteAll(int UserID)
         {
-            cr.checkout(UserID);
+            cr.deleteAll(UserID);
+        }
+
+        public List<Cart> getAllByUserID(int UserID)
+        {
+
         }
     }
 }
