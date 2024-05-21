@@ -4,6 +4,7 @@ using RAiso.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Web;
 
 namespace RAiso.Repositories
@@ -17,11 +18,11 @@ namespace RAiso.Repositories
                     where x.UserID == UserID && x.StationeryID == StationeryID
                     select x).ToList().FirstOrDefault();
         }
-        public List<Cart> getAllByUserID(int UserID)
+        public Cart searchByUserID(int UserID)
         {
             return (from x in db.Carts
                     where x.UserID == UserID
-                    select x).ToList();
+                    select x).ToList().FirstOrDefault();
         }
         public List<Cart> fetchAll()
         {
@@ -35,20 +36,21 @@ namespace RAiso.Repositories
             db.SaveChanges();
         }
 
+        public void deleteAllById(int UserID)
+        {
+            List<Cart> carts = fetchAll();
+
+            foreach (Cart cart in carts)
+            {
+                db.Carts.Remove(cart);
+                db.SaveChanges();
+            }
+        }
+
         public void delete(int UserID, int StationeryID)
         {
             Cart cart = search(UserID, StationeryID);
             db.Carts.Remove(cart);
-            db.SaveChanges();
-        }
-
-        public void deleteAll(int UserID)
-        {
-            List<Cart> carts = getAllByUserID(UserID);
-            foreach (Cart cart in carts)
-            {
-                db.Carts.Remove(cart);
-            }
             db.SaveChanges();
         }
 
@@ -60,5 +62,6 @@ namespace RAiso.Repositories
             cart.Quantity = Quantity;
             db.SaveChanges();
         }
+
     }
 }

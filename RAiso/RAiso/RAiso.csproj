@@ -105,17 +105,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\CartController.cs" />
-    <Compile Include="Controllers\StationaryController.cs" />
+    <Compile Include="Controllers\StationeryController.cs" />
+    <Compile Include="Controllers\TransactionDetailController.cs" />
+    <Compile Include="Controllers\TransactionHeaderController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Factories\CartFactory.cs" />
     <Compile Include="Factories\StationaryFactory.cs" />
     <Compile Include="Factories\TransactionDetailFactory.cs" />
     <Compile Include="Factories\TransactionHeaderFactory.cs" />
     <Compile Include="Factories\UserFactory.cs" />
-    <Compile Include="Handlers\CartHandlers.cs" />
+    <Compile Include="Handlers\CartHandler.cs" />
     <Compile Include="Handlers\StationeryHandler.cs" />
     <Compile Include="Handlers\TransactionDetailHandler.cs" />
-    <Compile Include="Handlers\TransactionHeaderHandlers.cs" />
+    <Compile Include="Handlers\TransactionHeaderHandler.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Layouts\Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
@@ -158,7 +160,7 @@
     <Compile Include="Repositories\CartRepository.cs" />
     <Compile Include="Repositories\DatabaseSingleton.cs" />
     <Compile Include="Repositories\StationeryRepository.cs" />
-    <Compile Include="Repositories\TransactionDetailRepositiory.cs" />
+    <Compile Include="Repositories\TransactionDetailRepository.cs" />
     <Compile Include="Repositories\TransactionHeaderRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Views\CartPage.aspx.cs">

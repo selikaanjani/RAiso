@@ -14,22 +14,21 @@ namespace RAiso.Views
 {
     public partial class InsertPage : System.Web.UI.Page
     {
-        StationeryHandler sh = new StationeryHandler();
-        StationaryController sc = new StationaryController();
+        StationeryController sc = new StationeryController();
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
         protected void InsertBtn_Click(object sender, EventArgs e)
         {
-            int id = sh.buatID();
+            int id = sc.createID();
             String name = NameTB.Text;
             String price = PriceTB.Text;
             String response = sc.validasiInsert(name, price);
             if (response.Equals("Add stationary success!") == true)
             {
                 int harga = Convert.ToInt32(PriceTB.Text);
-                sh.add(id, name, harga);
+                sc.createStationary(id, name, harga);
                 Response.Redirect("~/Views/HomePage.aspx");
             }
             else

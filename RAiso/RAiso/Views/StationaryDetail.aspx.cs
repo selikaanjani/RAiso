@@ -15,9 +15,8 @@ namespace RAiso.Views
 {
     public partial class StationaryDetail : System.Web.UI.Page
     {
-        StationeryHandler sh = new StationeryHandler();
-        CartController cc = new CartController(); 
-        CartHandlers ch = new CartHandlers();
+        CartController cc = new CartController();
+        StationeryController sc = new StationeryController();
         MsUser user;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -29,7 +28,7 @@ namespace RAiso.Views
                 if (Session["user"] == null && Request.Cookies["user_cookie"] == null)
                 {
                     int id = int.Parse(Request["ID"]);
-                    MsStationery curr = sh.searchById(id);
+                    MsStationery curr = sc.searchById(id);
                     NameTB.Text = curr.StationeryName;
                     PriceTB.Text = curr.StationeryPrice.ToString();
                     NameTB.ReadOnly = true;
@@ -44,7 +43,7 @@ namespace RAiso.Views
                     if (Session["user"] == null)
                     {
                         int id = int.Parse(Request["ID"]);
-                        MsStationery curr = sh.searchById(id);
+                        MsStationery curr = sc.searchById(id);
                         NameTB.Text = curr.StationeryName;
                         PriceTB.Text = curr.StationeryPrice.ToString();
                         NameTB.ReadOnly = true;
@@ -61,7 +60,7 @@ namespace RAiso.Views
                     if (user.UserRole.Equals("Customer"))
                     {
                         int id = int.Parse(Request["ID"]);
-                        MsStationery curr = sh.searchById(id);
+                        MsStationery curr = sc.searchById(id);
                         NameTB.Text = curr.StationeryName;
                         PriceTB.Text = curr.StationeryPrice.ToString();
                         NameTB.ReadOnly = true;
@@ -77,7 +76,7 @@ namespace RAiso.Views
                     //admin
                     {
                         int id = int.Parse(Request["ID"]);
-                        MsStationery curr = sh.searchById(id);
+                        MsStationery curr = sc.searchById(id);
                         NameTB.Text = curr.StationeryName;
                         PriceTB.Text = curr.StationeryPrice.ToString();
                         NameTB.ReadOnly = true;
@@ -100,7 +99,7 @@ namespace RAiso.Views
                 int id = int.Parse(Request["ID"]);
                 MsUser user = (MsUser)Session["user"];
                 int userID = user.UserID;
-                ch.add(userID, id, kuantiti);
+                cc.add(userID, id, kuantiti);
                 Response.Redirect("~/Views/CartPage.aspx");
             }
             else

@@ -16,9 +16,8 @@ namespace RAiso.Views
 {
     public partial class HomePage : System.Web.UI.Page
     {
-        StationeryHandler sh = new StationeryHandler();
-        UserHandler uh = new UserHandler();
         UserController uc = new UserController();
+        StationeryController sc = new StationeryController();
         public List<MsStationery> stationeries = new List<MsStationery>();
 
         protected void Page_Load(object sender, EventArgs e)
@@ -43,7 +42,7 @@ namespace RAiso.Views
                     if (Session["user"] == null)
                     {
                         int id = Convert.ToInt32(Request.Cookies["user_cookie"].Value);
-                        user = uh.GetUserById(id);
+                        user = uc.getUserID(id);
                         Session["user"] = user;
                         InsertBtn.Visible = false;
                         InsertBtn.Visible = false;
@@ -82,7 +81,7 @@ namespace RAiso.Views
 
         public void refreshTable()
         {
-            List<MsStationery> list = sh.getAllStationery();
+            List<MsStationery> list = sc.viewAllStationary();
             StGV.DataSource = list;
             StGV.DataBind();
         }
@@ -104,7 +103,7 @@ namespace RAiso.Views
         {
             GridViewRow row = StGV.Rows[e.RowIndex];
             int id = int.Parse(row.Cells[0].Text); //ambil id dari column paling kiri
-            sh.deleteStationary(id);
+            sc.popStationary(id);
             refreshTable();
             Response.Redirect("~/Views/HomePage.aspx");
         }

@@ -10,27 +10,30 @@ namespace RAiso.Repositories
     public class TransactionHeaderRepository
     {
         RAisoDatabaseEntities db = DatabaseSingleton.GetInstance();
+
+        public TransactionHeader searchById(int id)
+        {
+            return (from x in db.TransactionHeaders where x.UserID == id select x).FirstOrDefault();
+        }
         public void add(int TransactionId, int UserId, DateTime TransactionDate)
         {
             TransactionHeader th = TransactionHeaderFactory.create(TransactionId, UserId, TransactionDate);
             db.TransactionHeaders.Add(th);
             db.SaveChanges();
         }
-        public List<TransactionHeader> fetchAll()
+        public TransactionHeader getLast()
         {
-            return (from x in db.TransactionHeaders select x).ToList();
+            return db.TransactionHeaders.ToList().LastOrDefault();
         }
-        public int generateId()
+
+        public TransactionHeader getFirst()
         {
-            TransactionHeader th = db.TransactionHeaders.ToList().LastOrDefault();
-            if (th == null)
-            {
-                return 1;
-            }
-            else
-            {
-                return th.TransactionID + 1;
-            }
+            return (from x in db.TransactionHeaders select x).FirstOrDefault();
+        }
+
+        public List<TransactionHeader> fetchAllById(int id)
+        {
+            return (from x in db.TransactionHeaders where x.UserID == id select x).ToList();
         }
     }
 }

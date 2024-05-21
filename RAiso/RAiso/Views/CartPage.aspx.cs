@@ -1,4 +1,5 @@
-﻿using RAiso.Handlers;
+﻿using RAiso.Controllers;
+using RAiso.Handlers;
 using RAiso.Models;
 using System;
 using System.Collections.Generic;
@@ -6,14 +7,16 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
 
 namespace RAiso.Views
 {
     public partial class CartPage : System.Web.UI.Page
     {
-        CartHandlers ch = new CartHandlers();
-        StationeryHandler sh = new StationeryHandler();
+        CartController cartController = new CartController();
+        StationeryController stationeryController = new StationeryController();
+        TransactionDetailController transactionDetailController = new TransactionDetailController();
+        TransactionHeaderController transactionHeaderController = new TransactionHeaderController();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -25,32 +28,20 @@ namespace RAiso.Views
 
         protected void BtnCheckout_Click(object sender, EventArgs e)
         {
-            TransactionHeaderHandlers thh = new TransactionHeaderHandlers();
-            TransactionDetailHandler tdh = new TransactionDetailHandler();
-
             MsUser user = (MsUser)Session["user"];
             int UserID = user.UserID;
-            
-            
-
-            List<Cart> carts = getAllUserID(UserID);
-            DateTime date = DateTime.Now;
-
-            thh.add(thh.generateID(), UserID, date);
-
-            foreach (Cart cart in carts)
-            {
-
-            }
-            db.SaveChanges();
-            ch.deleteAll(UserID);
+            Cart cart = cartController.getCartByUserId(UserID);
+            List<Cart> carts = cartController.FetchAll();
+            transactionHeaderController.add(UserID);
+            transactionDetailController.addMultipleData(carts);
+            cartController.deleteMultipleData(UserID);
             refreshGV();
             Response.Redirect("~/Views/HomePage.aspx");
         }
 
         public void refreshGV()
         {
-            CartGV.DataSource = ch.fetchAll();
+            CartGV.DataSource = cartController.FetchAll();
             CartGV.DataBind();
         }
 
@@ -58,9 +49,8 @@ namespace RAiso.Views
         {
             GridViewRow row = CartGV.Rows[e.NewEditIndex];
             String Name = Convert.ToString(row.Cells[0].Text); //ambil id dari column paling kiri
-            MsStationery stationery = sh.searchByName(Name);
-            int stId = stationery.StationeryID;
-            Response.Redirect("~/Views/CartUpdatePage.aspx?id=" + stId);
+            int stationeryId = stationeryController.getStationeryIdByName(Name);
+            Response.Redirect("~/Views/CartUpdatePage.aspx?id=" + stationeryId);
             refreshGV();
         }
 
@@ -70,9 +60,8 @@ namespace RAiso.Views
             int UserID = user.UserID;
             GridViewRow row = CartGV.Rows[e.RowIndex];
             String Name = Convert.ToString(row.Cells[0].Text); //ambil id dari column paling kiri
-            MsStationery stationery = sh.searchByName(Name);
-            int stId = stationery.StationeryID;
-            ch.delete(UserID, stId);
+            int stId = stationeryController.getStationeryIdByName(Name);
+            cartController.delete(UserID, stId);
             refreshGV();
             Response.Redirect("~/Views/CartPage.aspx");
         }

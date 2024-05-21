@@ -12,31 +12,30 @@ namespace RAiso.Views
 {
     public partial class CartUpdatePage : System.Web.UI.Page
     {
-        StationeryHandler sh = new StationeryHandler();
-        CartHandlers ch = new CartHandlers();
-        CartController cc = new CartController();
+        CartController cartController = new CartController();
+        StationeryController stationeryController = new StationeryController();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 int id = int.Parse(Request["ID"]);
-                MsStationery curr = sh.searchById(id);
-                NameTB.Text = curr.StationeryName;
-                PriceTB.Text = curr.StationeryPrice.ToString();
+                MsStationery stationery = stationeryController.searchById(id);
+                NameTB.Text = stationery.StationeryName;
+                PriceTB.Text = stationery.StationeryPrice.ToString();
             }
         }
 
         protected void UpdateBtn_Click(object sender, EventArgs e)
         {
             String qty = QtyTB.Text;
-            String response = cc.validateQty(qty);
+            String response = cartController.validateQty(qty);
             if (response.Equals("Add to cart success!") == true)
             {
-                int id = int.Parse(Request["ID"]);
+                int stationeryId = int.Parse(Request["ID"]);
                 MsUser user = (MsUser)Session["user"];
                 int UserID = user.UserID;
                 int Quantity = Convert.ToInt32(QtyTB.Text);
-                ch.update(UserID, id, Quantity);
+                cartController.update(UserID, stationeryId, Quantity);
                 Response.Redirect("~/Views/CartPage.aspx");
             }
             else

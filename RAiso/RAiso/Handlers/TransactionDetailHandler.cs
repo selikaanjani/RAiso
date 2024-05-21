@@ -20,7 +20,24 @@ namespace RAiso.Handlers
         }
         public int generateID()
         {
-            return tdr.generateId();
+            if (tdr.getFirst() == null)
+            {
+                return 1;
+            }
+            else
+            {
+                TransactionDetail transactionDetail = tdr.getLast();
+                return transactionDetail.TransactionID + 1;
+            }
+        }
+        public List<TransactionDetail> fetchAllById(int TransactionID)
+        {
+            if (tdr.searchById(TransactionID) == null)
+            {
+                return null;
+            }
+
+            return tdr.fetchAllById(TransactionID);
         }
     }
 }

@@ -17,15 +17,14 @@ namespace RAiso.Views
 {
     public partial class UpdatePage : System.Web.UI.Page
     {
-        StationeryHandler sh = new StationeryHandler();
-        StationaryController sc = new StationaryController();
+        StationeryController sc = new StationeryController();
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 int id = int.Parse(Request["ID"]);
-                MsStationery st = sh.searchById(id);
+                MsStationery st = sc.searchById(id);
                 if (st == null)
                 {
                     Response.Redirect("~/Views/HomePage.aspx");
@@ -45,7 +44,7 @@ namespace RAiso.Views
             if (response.Equals("Add stationary success!") == true)
             {
                 int harga = Convert.ToInt32(PriceTBUpdate.Text);
-                sh.updateStationary(id, name, harga);
+                sc.updateStationary(id, name, harga);
                 Response.Redirect("~/Views/HomePage.aspx");
             }
             else
