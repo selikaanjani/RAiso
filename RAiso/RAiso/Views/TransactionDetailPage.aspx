@@ -8,5 +8,11 @@
     </div>
     <br />
     <br />
-    <asp:GridView ID="GVTransDetails" runat="server" AutoGenerateColumns="false"></asp:GridView>
+    <asp:GridView ID="GVTransactionDetails" runat="server" AutoGenerateColumns="False">
+        <Columns>
+            <asp:BoundField DataField="MsStationery.StationeryName" HeaderText="Stationery's Name" SortExpression="MsStationery.StationeryName" />
+            <asp:BoundField DataField="MsStationery.StationeryPrice" HeaderText="Stationery's Price" SortExpression="MsStationery.StationeryPrice" />
+            <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
+        </Columns>
+    </asp:GridView>
 </asp:Content>

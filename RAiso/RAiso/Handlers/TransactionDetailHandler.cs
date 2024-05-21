@@ -30,5 +30,14 @@ namespace RAiso.Handlers
                 return transactionDetail.TransactionID + 1;
             }
         }
+        public List<TransactionDetail> fetchAllById(int TransactionID)
+        {
+            if (tdr.searchById(TransactionID) == null)
+            {
+                return null;
+            }
+
+            return tdr.fetchAllById(TransactionID);
+        }
     }
 }

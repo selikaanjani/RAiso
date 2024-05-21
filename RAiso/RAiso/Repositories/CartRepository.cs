@@ -4,6 +4,7 @@ using RAiso.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Web;
 
 namespace RAiso.Repositories
@@ -33,6 +34,17 @@ namespace RAiso.Repositories
             Cart cart = CartFactory.create(UserID, StationeryID, Quantity);
             db.Carts.Add(cart);
             db.SaveChanges();
+        }
+
+        public void deleteAllById(int UserID)
+        {
+            List<Cart> carts = fetchAll();
+
+            foreach (Cart cart in carts)
+            {
+                db.Carts.Remove(cart);
+                db.SaveChanges();
+            }
         }
 
         public void delete(int UserID, int StationeryID)

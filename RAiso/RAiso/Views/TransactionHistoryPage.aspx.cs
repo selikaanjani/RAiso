@@ -1,5 +1,6 @@
 ﻿using RAiso.Controllers;
 using RAiso.Handlers;
+using RAiso.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,15 +23,17 @@ namespace RAiso.Views
 
         public void refreshGV() 
         {
-            THGV.DataSource = transactionHeaderController.fetchAll();
+            MsUser user = (MsUser)Session["user"];
+            int UserID = user.UserID;
+            THGV.DataSource = transactionHeaderController.fetchAllById(UserID);
             THGV.DataBind();
         }
 
         protected void THGV_RowEditing(object sender, GridViewEditEventArgs e)
         {
             GridViewRow row = THGV.Rows[e.NewEditIndex];
-            int id = Convert.ToInt32(row.Cells[0].Text.ToString());
-            Response.Redirect("~/Views/TransactionDetailPage.aspx?id=" + id);
+            int transId = Convert.ToInt32(row.Cells[0].Text.ToString());
+            Response.Redirect("~/Views/TransactionDetailPage.aspx?id=" + transId);
             refreshGV();
         }
     }

@@ -18,18 +18,21 @@ namespace RAiso.Handlers
         {
             cr.add(UserID, stationaryId, Quantity);
         }
-        public void delete(int UserID, int stationaryID)
+        public void deleteAllById(int UserID)
         {
-            cr.delete(UserID, stationaryID);
+            cr.deleteAllById(UserID);
         }
         public void update(int UserID, int staionaryID, int Quantity)
         {
             cr.Update(UserID, staionaryID, Quantity);
         }
-
         public Cart getCartById(int UserID)
         {
             return cr.searchByUserID(UserID);
+        }
+        public void delete(int UserID, int StationeryID)
+        {
+            cr.delete(UserID, StationeryID);
         }
     }
 }

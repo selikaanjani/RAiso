@@ -35,12 +35,10 @@ namespace RAiso.Controllers
         {
             return ch.fetchAll();
         }
-
-        public void delete(int UserID, int stationaryID)
+        public void delete(int UserID, int StationeryID)
         {
-            ch.delete(UserID, stationaryID);
+            ch.delete(UserID, StationeryID);
         }
-
         public void update(int UserID, int StationeryID, int Quantity)
         {
             ch.update(UserID, StationeryID, Quantity);
@@ -48,6 +46,10 @@ namespace RAiso.Controllers
         public Cart getCartByUserId (int UserID)
         {
             return ch.getCartById(UserID);
+        }
+        public void deleteMultipleData(int UserID)
+        {
+            ch.deleteAllById(UserID);
         }
     }
 }

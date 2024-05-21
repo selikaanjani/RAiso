@@ -11,9 +11,9 @@ namespace RAiso.Controllers
     {
         TransactionHeaderHandler thh = new TransactionHeaderHandler();
 
-        public List<TransactionHeader> fetchAll()
+        public List<TransactionHeader> fetchAllById(int UserID)
         {
-            return thh.fetchAll();
+            return thh.fetchAllById(UserID);
         }
 
         public void add(int UserID)

@@ -10,6 +10,12 @@ namespace RAiso.Repositories
     public class TransactionDetailRepositiory
     {
         RAisoDatabaseEntities db = DatabaseSingleton.GetInstance();
+
+        public TransactionDetail searchById(int id)
+        {
+            return (from x in db.TransactionDetails where x.TransactionID == id select x).FirstOrDefault();
+        }
+
         public void add(int TransactionId, int StationaryId, int Quantity)
         {
             TransactionDetail td = TransactionDetailFactory.create(TransactionId, StationaryId, Quantity);
@@ -29,5 +35,10 @@ namespace RAiso.Repositories
         {
             return (from x in db.TransactionDetails select x).FirstOrDefault();
         }
+
+        public List<TransactionDetail> fetchAllById(int id)
+        {
+            return (from x in db.TransactionDetails where x.TransactionID == id select x).ToList();
+        } 
     }
 }

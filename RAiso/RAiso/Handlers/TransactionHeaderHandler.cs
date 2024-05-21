@@ -14,9 +14,14 @@ namespace RAiso.Handlers
         {
             thr.add(generateID(), UserId, TransactionDate);
         }
-        public List<TransactionHeader> fetchAll()
+        public List<TransactionHeader> fetchAllById(int UserID)
         {
-            return thr.fetchAll();
+            if (thr.searchById(UserID) == null)
+            {
+                return null;
+            }
+
+            return thr.fetchAllById(UserID);
         }
         public int generateID()
         {

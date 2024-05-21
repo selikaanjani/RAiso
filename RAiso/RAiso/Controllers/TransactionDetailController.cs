@@ -18,5 +18,14 @@ namespace RAiso.Controllers
                 tdh.add(transactionId, cart.StationeryID, cart.Quantity);
             }
         }
+
+        public List<TransactionDetail> fetchAll()
+        {
+            return tdh.fetchAll();
+        }
+        public List<TransactionDetail> fetchAllById(int TransactionID)
+        {
+            return tdh.fetchAllById(TransactionID);
+        }
     }
 }
