@@ -25,5 +25,10 @@ namespace RAiso.Repositories
         {
             return db.TransactionHeaders.ToList().LastOrDefault();
         }
+
+        public TransactionHeader getFirst()
+        {
+            return (from x in db.TransactionHeaders select x).FirstOrDefault();
+        }
     }
 }

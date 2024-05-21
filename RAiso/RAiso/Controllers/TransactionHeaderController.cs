@@ -19,7 +19,7 @@ namespace RAiso.Controllers
         public void add(int UserID)
         {
             DateTime date = DateTime.Now;
-            thh.add(thh.generateID(), UserID, date);
+            thh.add(UserID, date);
         }
     }
 }

@@ -20,17 +20,14 @@ namespace RAiso.Repositories
         {
             return (from x in db.TransactionDetails select x).ToList();
         }
-        public int generateId()
+        public TransactionDetail getLast()
         {
-            TransactionDetail td = db.TransactionDetails.ToList().LastOrDefault();
-            if (td == null)
-            {
-                return 1;
-            }
-            else
-            {
-                return td.TransactionID + 1;
-            }
+            return db.TransactionDetails.ToList().LastOrDefault();
+        }
+
+        public TransactionDetail getFirst()
+        {
+            return (from x in db.TransactionDetails select x).FirstOrDefault();
         }
     }
 }

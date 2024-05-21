@@ -10,9 +10,9 @@ namespace RAiso.Handlers
     public class TransactionHeaderHandler
     {
         TransactionHeaderRepository thr = new TransactionHeaderRepository();
-        public void add(int TransactionId, int UserId, DateTime TransactionDate)
+        public void add(int UserId, DateTime TransactionDate)
         {
-            thr.add(TransactionId, UserId, TransactionDate);
+            thr.add(generateID(), UserId, TransactionDate);
         }
         public List<TransactionHeader> fetchAll()
         {
@@ -20,19 +20,14 @@ namespace RAiso.Handlers
         }
         public int generateID()
         {
-            return thr.generateId();
-        }
-
-
-        public int generateId()
-        {
-            if (th == null)
+            if (thr.getFirst() == null)
             {
                 return 1;
             }
             else
             {
-                return th.TransactionID + 1;
+                TransactionHeader transactionHeader = thr.getLast();
+                return transactionHeader.TransactionID + 1;
             }
         }
     }
