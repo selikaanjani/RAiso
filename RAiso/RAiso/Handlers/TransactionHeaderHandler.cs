@@ -22,5 +22,18 @@ namespace RAiso.Handlers
         {
             return thr.generateId();
         }
+
+
+        public int generateId()
+        {
+            if (th == null)
+            {
+                return 1;
+            }
+            else
+            {
+                return th.TransactionID + 1;
+            }
+        }
     }
 }

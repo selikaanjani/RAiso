@@ -50,15 +50,6 @@ namespace RAiso.Repositories
             cart.Quantity = Quantity;
             db.SaveChanges();
         }
-        public void checkout(int UserID)
-        {
-            TransactionHeaderHandler thh = new TransactionHeaderHandler();
-            Cart cart = searchByUserID(UserID);
-            DateTime date = DateTime.Now;
-            thh.add(thh.generateID(), UserID, date);
-            db.Carts.Remove(cart);
-            db.SaveChanges();
-        }
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using RAiso.Handlers;
+﻿using RAiso.Controllers;
+using RAiso.Handlers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace RAiso.Views
 {
     public partial class TransactionHistoryPage : System.Web.UI.Page
     {
-        TransactionHeaderHandler thh = new TransactionHeaderHandler();
+        TransactionHeaderController transactionHeaderController = new TransactionHeaderController();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -21,7 +22,7 @@ namespace RAiso.Views
 
         public void refreshGV() 
         {
-            THGV.DataSource = thh.fetchAll();
+            THGV.DataSource = transactionHeaderController.fetchAll();
             THGV.DataBind();
         }
 

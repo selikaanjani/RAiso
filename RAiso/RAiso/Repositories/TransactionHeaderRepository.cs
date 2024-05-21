@@ -20,17 +20,10 @@ namespace RAiso.Repositories
         {
             return (from x in db.TransactionHeaders select x).ToList();
         }
-        public int generateId()
+
+        public TransactionHeader getLast()
         {
-            TransactionHeader th = db.TransactionHeaders.ToList().LastOrDefault();
-            if (th == null)
-            {
-                return 1;
-            }
-            else
-            {
-                return th.TransactionID + 1;
-            }
+            return db.TransactionHeaders.ToList().LastOrDefault();
         }
     }
 }

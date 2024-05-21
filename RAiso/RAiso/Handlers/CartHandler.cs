@@ -26,9 +26,10 @@ namespace RAiso.Handlers
         {
             cr.Update(UserID, staionaryID, Quantity);
         }
-        public void checkout(int UserID)
+
+        public Cart getCartById(int UserID)
         {
-            cr.checkout(UserID);
+            return cr.searchByUserID(UserID);
         }
     }
 }

@@ -14,6 +14,8 @@ namespace RAiso.Views
     {
         CartController cartController = new CartController();
         StationeryController stationeryController = new StationeryController();
+        TransactionDetailController transactionDetailController = new TransactionDetailController();
+        TransactionHeaderController transactionHeaderController = new TransactionHeaderController();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -28,7 +30,10 @@ namespace RAiso.Views
         {
             MsUser user = (MsUser)Session["user"];
             int UserID = user.UserID;
-            ch.checkout(UserID);
+            Cart cart = cartController.getCartByUserId(UserID);
+            List<Cart> carts = cartController.FetchAll();
+            transactionHeaderController.add(UserID);
+            transactionDetailController.addMultipleData(carts);
             refreshGV();
             Response.Redirect("~/Views/HomePage.aspx");
         }
@@ -43,8 +48,8 @@ namespace RAiso.Views
         {
             GridViewRow row = CartGV.Rows[e.NewEditIndex];
             String Name = Convert.ToString(row.Cells[0].Text); //ambil id dari column paling kiri
-            int stId = stationeryController.getStationeryIdByName(Name);
-            Response.Redirect("~/Views/CartUpdatePage.aspx?id=" + stId);
+            int stationeryId = stationeryController.getStationeryIdByName(Name);
+            Response.Redirect("~/Views/CartUpdatePage.aspx?id=" + stationeryId);
             refreshGV();
         }
 

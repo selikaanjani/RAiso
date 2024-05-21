@@ -40,5 +40,14 @@ namespace RAiso.Controllers
         {
             ch.delete(UserID, stationaryID);
         }
+
+        public void update(int UserID, int StationeryID, int Quantity)
+        {
+            ch.update(UserID, StationeryID, Quantity);
+        }
+        public Cart getCartByUserId (int UserID)
+        {
+            return ch.getCartById(UserID);
+        }
     }
 }
