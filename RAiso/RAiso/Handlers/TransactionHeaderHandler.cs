@@ -35,5 +35,9 @@ namespace RAiso.Handlers
                 return transactionHeader.TransactionID + 1;
             }
         }
+        public List<TransactionHeader> fetchAll()
+        {
+            return thr.fetchAll();
+        }
     }
 }

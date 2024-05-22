@@ -35,5 +35,10 @@ namespace RAiso.Repositories
         {
             return (from x in db.TransactionHeaders where x.UserID == id select x).ToList();
         }
+
+        public List<TransactionHeader> fetchAll()
+        {
+            return (from x in db.TransactionHeaders select x).ToList();
+        }
     }
 }

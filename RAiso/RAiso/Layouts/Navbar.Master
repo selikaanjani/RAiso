@@ -30,7 +30,10 @@
                     <a href="~/Views/CartPage.aspx" runat="server" visible="false" id="CartLink">Cart</a>
                 </li>
                 <li>
-                    <a href="~/Views/TransactionHistoryPage.aspx" runat="server" visible="false" id="TransactionLink">Transaction</a>
+                    <a href="~/Views/TransactionHistoryPage.aspx" runat="server" visible="false" id="CustomerTransactionLink">Transaction</a>
+                </li>
+                <li>
+                    <a href="~/Views/TransactionReportPage.aspx" runat="server" visible="false" id="AdminTransactionLink">Transaction</a>
                 </li>
                 <li>
                     <a href="~/Views/RegisterPage.aspx" runat="server" visible="false" id="RegisterLink">Register</a>

@@ -44,7 +44,7 @@ namespace RAiso.Layouts
                     HomeLink.Visible = true;
                     UpdateProfileLink.Visible = true;
                     CartLink.Visible = true;
-                    TransactionLink.Visible = true;
+                    CustomerTransactionLink.Visible = true;
                     LogoutBtn.Visible = true;
                 }
                 else
@@ -52,7 +52,7 @@ namespace RAiso.Layouts
                 {
                     HomeLink.Visible = true;
                     UpdateLink.Visible = true;
-                    TransactionLink.Visible = true;
+                    AdminTransactionLink.Visible = true;
                     LogoutBtn.Visible = true;
                 }
             }

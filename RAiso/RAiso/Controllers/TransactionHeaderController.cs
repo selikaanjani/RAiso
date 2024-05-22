@@ -16,6 +16,11 @@ namespace RAiso.Controllers
             return thh.fetchAllById(UserID);
         }
 
+        public List<TransactionHeader> fetchAll()
+        {
+            return thh.fetchAll();
+        }
+
         public void add(int UserID)
         {
             DateTime date = DateTime.Now;

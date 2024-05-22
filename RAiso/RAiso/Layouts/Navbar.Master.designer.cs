@@ -78,13 +78,22 @@ namespace RAiso.Layouts
         protected global::System.Web.UI.HtmlControls.HtmlAnchor CartLink;
 
         /// <summary>
-        /// TransactionLink control.
+        /// CustomerTransactionLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor TransactionLink;
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor CustomerTransactionLink;
+
+        /// <summary>
+        /// AdminTransactionLink control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor AdminTransactionLink;
 
         /// <summary>
         /// RegisterLink control.
