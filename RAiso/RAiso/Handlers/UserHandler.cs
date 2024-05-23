@@ -28,6 +28,11 @@ namespace RAiso.Handlers
             return user;
         }
 
+        public void Update(int id, String name, String gender, DateTime dob, String phone, String address, String password)
+        {
+            userRepo.UpdateUser(id, name, gender, dob, phone, address, password);
+        }
+
         public MsUser GetUserByName(String name)
         {
             MsUser user = userRepo.GetUserByName(name);

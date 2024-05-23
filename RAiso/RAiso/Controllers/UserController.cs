@@ -15,18 +15,9 @@ namespace RAiso.Controllers
 
         public String DoRegister(String name, String dob, RadioButton maleBtn, RadioButton femaleBtn, String phone, String address, String password, String role)
         {
-            String gender = "";
+            String gender = GenderValidation(maleBtn, femaleBtn);
 
-            if (maleBtn.Checked)
-            {
-                gender = "Male";
-            }
-            else
-            {
-                gender = "Female";
-            }
-
-            if (String.IsNullOrEmpty(name) || String.IsNullOrEmpty(dob) || (maleBtn.Checked == false && femaleBtn.Checked == false) || String.IsNullOrEmpty(address) || String.IsNullOrEmpty(password) || String.IsNullOrEmpty(phone))
+            if (String.IsNullOrEmpty(name) || String.IsNullOrEmpty(dob) || String.IsNullOrEmpty(gender) || String.IsNullOrEmpty(address) || String.IsNullOrEmpty(password) || String.IsNullOrEmpty(phone))
             {
                 return "All fields must be filled!";
             }
@@ -78,6 +69,46 @@ namespace RAiso.Controllers
 
                 return "Login success!";
             }
+        }
+
+        public String DoUpdate(int UserID, String name, String dob, RadioButton maleBtn, RadioButton femaleBtn, String phone, String address, String password)
+        {
+            String gender = GenderValidation(maleBtn, femaleBtn);
+
+            if (String.IsNullOrEmpty(name) || String.IsNullOrEmpty(dob) || String.IsNullOrEmpty(gender) || String.IsNullOrEmpty(address) || String.IsNullOrEmpty(password) || String.IsNullOrEmpty(phone))
+            {
+                return "All fields must be filled!";
+            }
+            else if (NameValidation(name) == false && userHandler.GetUserById(UserID).UserName != name)
+            {
+                return "Name must be between 5 and 50 characters and unique!";
+            }
+            else if (DobValidation(Convert.ToDateTime(dob)) == false)
+            {
+                return "Age must be at least 1 year!";
+            }
+            else if (PasswordValidation(password) == false)
+            {
+                return "Password must be alphanumeric!";
+            }
+            else
+            {
+                userHandler.Update(UserID, name, gender, Convert.ToDateTime(dob), phone, address, password);
+                return "Update success!";
+            }
+        }
+
+        public String GenderValidation(RadioButton maleBtn, RadioButton femaleBtn)
+        {
+            if (maleBtn.Checked)
+            {
+                return "Male";
+            }
+            if (femaleBtn.Checked)
+            {
+                return "Female";
+            }
+            return null;
         }
 
         public bool NameValidation(String name)
@@ -134,7 +165,7 @@ namespace RAiso.Controllers
             HttpContext.Current.Response.Cookies["user_cookie"].Expires = DateTime.Now.AddDays(-1);
         }
 
-        public MsUser getUserID(int id)
+        public MsUser getUserByID(int id)
         {
             return userHandler.GetUserById(id);
         }

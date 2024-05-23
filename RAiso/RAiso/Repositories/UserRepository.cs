@@ -20,6 +20,18 @@ namespace RAiso.Repositories
             db.SaveChanges();
         }
 
+        public void UpdateUser(int id, String name, String gender, DateTime dob, String phone, String address, String password)
+        {
+            MsUser user = GetUserById(id);
+            user.UserName = name;
+            user.UserGender = gender;
+            user.UserDOB = dob;
+            user.UserPhone = phone;
+            user.UserAddress = address;
+            user.UserPassword = password;
+            db.SaveChanges();
+        }
+
         public int GetRegisteredId()
         {
             MsUser user = db.MsUsers.ToList().LastOrDefault();

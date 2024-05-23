@@ -51,7 +51,7 @@ namespace RAiso.Layouts
                 //admin
                 {
                     HomeLink.Visible = true;
-                    UpdateLink.Visible = true;
+                    UpdateProfileLink.Visible = true;
                     AdminTransactionLink.Visible = true;
                     LogoutBtn.Visible = true;
                 }

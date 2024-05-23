@@ -42,7 +42,7 @@ namespace RAiso.Views
                     if (Session["user"] == null)
                     {
                         int id = Convert.ToInt32(Request.Cookies["user_cookie"].Value);
-                        user = uc.getUserID(id);
+                        user = uc.getUserByID(id);
                         Session["user"] = user;
                         InsertBtn.Visible = false;
                         InsertBtn.Visible = false;
