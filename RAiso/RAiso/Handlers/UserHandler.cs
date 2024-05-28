@@ -14,7 +14,7 @@ namespace RAiso.Handlers
         public void Register(String name, String gender, DateTime dob, String phone, String address, String password, String role)
         {
             MsUser user = userRepo.GetUserByName(name);
-            int id = userRepo.GetRegisteredId();
+            int id = GetRegisteredId();
 
             if (user == null)
             {
@@ -43,6 +43,23 @@ namespace RAiso.Handlers
         {
             MsUser user = userRepo.GetUserById(id);
             return user;
+        }
+
+        public int GetRegisteredId()
+        {
+            MsUser user = userRepo.GetLastUser();
+            int id;
+
+            if (user == null)
+            {
+                 id = 1;
+            } 
+            else
+            {
+                id = user.UserID + 1;
+            }
+
+            return id;
         }
 
         public String GetUserByRole(String role)

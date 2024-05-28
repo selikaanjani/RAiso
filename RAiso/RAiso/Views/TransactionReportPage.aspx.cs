@@ -13,24 +13,22 @@ namespace RAiso.Views
 {
     public partial class TransactionReportPage : System.Web.UI.Page
     {
+        StationeryController sc = new StationeryController();
         TransactionHeaderController thController = new TransactionHeaderController();
         protected void Page_Load(object sender, EventArgs e)
         {
-            TransactionReport report = new TransactionReport();
+            CrystalReport report = new CrystalReport();
 
             CrystalReportViewer1.ReportSource = report;
-            RAisoDataset data = getData(thController.fetchAll());
+            RaisoDataset data = getData(thController.fetchAll());
             report.SetDataSource(data);
-
-            GVTransactions.DataSource = thController.fetchAll();
-            GVTransactions.DataBind();
         }
 
-        private RAisoDataset getData(List<TransactionHeader> transactionHeaders)
+        private RaisoDataset getData(List<TransactionHeader> transactionHeaders)
         {
-            RAisoDataset data = new RAisoDataset();
-            var headerTable = data.TransactionHeader;
-            var detailTable = data.TransactionDetail;
+            RaisoDataset data = new RaisoDataset();
+            var headerTable = data.TransactionHeaders;
+            var detailTable = data.TransactionDetails;
 
             foreach (TransactionHeader t in transactionHeaders)
             {
@@ -38,16 +36,22 @@ namespace RAiso.Views
                 hrow["TransactionID"] = t.TransactionID;
                 hrow["UserID"] = t.UserID;
                 hrow["TransactionDate"] = t.TransactionDate;
-                headerTable.Rows.Add(hrow);
+                decimal grandTotal = 0;
 
                 foreach (TransactionDetail d in t.TransactionDetails)
                 {
+                    MsStationery st = sc.searchById(d.StationeryID);
                     var drow = detailTable.NewRow();
                     drow["TransactionID"] = d.TransactionID;
-                    drow["StationeryID"] = d.StationeryID;
+                    drow["StationeryName"] = st.StationeryName;
+                    drow["StationeryPrice"] = st.StationeryPrice;
                     drow["Quantity"] = d.Quantity;
+                    drow["SubTotal"] = d.Quantity * st.StationeryPrice;
+                    grandTotal += d.Quantity * st.StationeryPrice;
                     detailTable.Rows.Add(drow); 
                 }
+                hrow["GrandTotal"] = grandTotal;
+                headerTable.Rows.Add(hrow);
             }
             return data;
         }
