@@ -16,7 +16,6 @@
         <div>
             <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true" />
         </div>
-        <asp:GridView ID="GVTransactions" runat="server"></asp:GridView>
     </form>
 </body>
 </html>
