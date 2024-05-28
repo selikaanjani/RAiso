@@ -32,17 +32,10 @@ namespace RAiso.Repositories
             db.SaveChanges();
         }
 
-        public int GetRegisteredId()
+        public MsUser GetLastUser()
         {
-            MsUser user = db.MsUsers.ToList().LastOrDefault();
-            if (user == null)
-            {
-                return 1;
-            }
-            else
-            {
-                return user.UserID + 1;
-            }
+            return (from x in db.MsUsers
+                    select x).ToList().LastOrDefault();
         }
 
         public MsUser GetUserByName(String name)
