@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RAiso",
+    "\\RAiso\\RAiso",
+    "\\RAiso\\RAiso\\Factories",
+    "\\RAiso\\RAiso\\Models"
   ],
+  "SelectedNode": "\\RAiso\\RAiso.sln",
   "PreviewInSolutionExplorer": false
 }
