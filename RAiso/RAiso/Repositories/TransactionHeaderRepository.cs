@@ -13,7 +13,7 @@ namespace RAiso.Repositories
 
         public TransactionHeader searchById(int id)
         {
-            return (from x in db.TransactionHeaders where x.UserID == id select x).FirstOrDefault();
+            return (from x in db.TransactionHeaders where x.TransactionID == id select x).FirstOrDefault();
         }
         public void add(int TransactionId, int UserId, DateTime TransactionDate)
         {
@@ -39,6 +39,13 @@ namespace RAiso.Repositories
         public List<TransactionHeader> fetchAll()
         {
             return (from x in db.TransactionHeaders select x).ToList();
+        }
+
+        public void delete(int id)
+        {
+            TransactionHeader th = searchById(id);
+            db.TransactionHeaders.Remove(th);
+            db.SaveChanges();
         }
     }
 }

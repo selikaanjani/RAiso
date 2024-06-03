@@ -39,5 +39,18 @@ namespace RAiso.Handlers
         {
             return thr.fetchAll();
         }
+
+        public TransactionHeader searchById(int id)
+        {
+            return thr.searchById(id);
+        }
+
+        public void delete(int id)
+        {
+            if (searchById(id) != null)
+            {
+                thr.delete(id);
+            }
+        }
     }
 }
