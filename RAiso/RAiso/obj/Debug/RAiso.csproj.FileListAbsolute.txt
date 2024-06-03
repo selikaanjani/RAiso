@@ -347,3 +347,20 @@ C:\Users\Selika Anjani\OneDrive - Bina Nusantara\Documents\GitHub\RAiso\RAiso\RA
 C:\Users\Selika Anjani\OneDrive - Bina Nusantara\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\Selika Anjani\OneDrive - Bina Nusantara\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Selika Anjani\OneDrive - Bina Nusantara\Documents\GitHub\RAiso\RAiso\RAiso\bin\stdole.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.Web.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\joddy\sunib\repos\RAiso\RAiso\bin\stdole.dll
