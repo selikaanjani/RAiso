@@ -18,6 +18,8 @@ namespace RAiso.Views
     {
         UserController uc = new UserController();
         StationeryController sc = new StationeryController();
+        TransactionDetailController tdc = new TransactionDetailController();
+        TransactionHeaderController thc = new TransactionHeaderController();
         public List<MsStationery> stationeries = new List<MsStationery>();
 
         protected void Page_Load(object sender, EventArgs e)
@@ -103,6 +105,16 @@ namespace RAiso.Views
         {
             GridViewRow row = StGV.Rows[e.RowIndex];
             int id = int.Parse(row.Cells[0].Text); //ambil id dari column paling kiri
+            List<TransactionDetail> transactionDetails = tdc.fetchAll();
+
+            foreach (TransactionDetail transactionDetail in transactionDetails)
+            {
+                if (transactionDetail.StationeryID == id)
+                {
+                    thc.remove(transactionDetail.TransactionID);
+                }
+            }
+             
             sc.popStationary(id);
             refreshTable();
             Response.Redirect("~/Views/HomePage.aspx");
