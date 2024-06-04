@@ -35,6 +35,12 @@ namespace RAiso.Controllers
         {
             return ch.fetchAll();
         }
+
+        public List<Cart> FetchAllById(int UserId)
+        {
+            return ch.fetchAllById(UserId);
+        }
+
         public void delete(int UserID, int StationeryID)
         {
             ch.delete(UserID, StationeryID);

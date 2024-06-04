@@ -31,7 +31,7 @@ namespace RAiso.Views
             MsUser user = (MsUser)Session["user"];
             int UserID = user.UserID;
             Cart cart = cartController.getCartByUserId(UserID);
-            List<Cart> carts = cartController.FetchAll();
+            List<Cart> carts = cartController.FetchAllById(UserID);
             int transactionId = transactionHeaderController.getNewId();
             transactionHeaderController.add(UserID);
             transactionDetailController.addMultipleData(carts, transactionId);
@@ -42,7 +42,9 @@ namespace RAiso.Views
 
         public void refreshGV()
         {
-            CartGV.DataSource = cartController.FetchAll();
+            MsUser user = (MsUser)Session["user"];
+            int UserID = user.UserID;
+            CartGV.DataSource = cartController.FetchAllById(UserID);
             CartGV.DataBind();
         }
 

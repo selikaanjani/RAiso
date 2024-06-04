@@ -14,6 +14,11 @@ namespace RAiso.Handlers
         {
             return cr.fetchAll();
         }
+
+        public List<Cart> fetchAllById(int UserId)
+        {
+            return cr.fetchAllById(UserId);
+        }
         public void add(int UserID, int stationaryId, int Quantity)
         {
             cr.add(UserID, stationaryId, Quantity);

@@ -29,6 +29,11 @@ namespace RAiso.Repositories
             return(from x in db.Carts select x).ToList();
         }
 
+        public List<Cart> fetchAllById(int UserId)
+        {
+            return (from x in db.Carts where x.UserID == UserId select x).ToList();
+        }
+
         public void add(int UserID, int StationeryID, int Quantity)
         {
             Cart cart = CartFactory.create(UserID, StationeryID, Quantity);
