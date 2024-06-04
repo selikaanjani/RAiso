@@ -26,5 +26,10 @@ namespace RAiso.Controllers
             DateTime date = DateTime.Now;
             thh.add(UserID, date);
         }
+
+        public void remove(int TransactionID)
+        {
+            thh.delete(TransactionID);
+        }
     }
 }
