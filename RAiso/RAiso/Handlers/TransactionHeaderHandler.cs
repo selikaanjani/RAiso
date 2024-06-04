@@ -47,7 +47,7 @@ namespace RAiso.Handlers
 
         public void delete(int id)
         {
-            if (searchById(id) != null)
+            if (thr.searchByTransactionId(id) != null)
             {
                 thr.delete(id);
             }

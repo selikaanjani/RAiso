@@ -31,5 +31,10 @@ namespace RAiso.Controllers
         {
             thh.delete(TransactionID);
         }
+
+        public int getNewId()
+        {
+            return thh.generateID();
+        }
     }
 }

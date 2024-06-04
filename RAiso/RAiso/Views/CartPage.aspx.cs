@@ -32,8 +32,9 @@ namespace RAiso.Views
             int UserID = user.UserID;
             Cart cart = cartController.getCartByUserId(UserID);
             List<Cart> carts = cartController.FetchAll();
+            int transactionId = transactionHeaderController.getNewId();
             transactionHeaderController.add(UserID);
-            transactionDetailController.addMultipleData(carts);
+            transactionDetailController.addMultipleData(carts, transactionId);
             cartController.deleteMultipleData(UserID);
             refreshGV();
             Response.Redirect("~/Views/HomePage.aspx");
