@@ -28,9 +28,16 @@ namespace RAiso.Controllers
             //price
             else
             {
-                if (Convert.ToInt32(price) < 2000 || !Numeric(Convert.ToInt32(price)))
+                //if (Convert.ToInt32(price) < 2000 || !Numeric(Convert.ToInt32(price)))
+                //{
+                    //return "Price must be numeric, and greater than 2000!";
+                //}
+                //return "Add stationary success!";
+
+                int priceValue;
+                if (!int.TryParse(price, out priceValue) || priceValue < 2000)
                 {
-                    return "Price must be numeric, and greather than 2000!";
+                    return "Price must be numeric and greater than or equal to 2000!";
                 }
                 return "Add stationary success!";
             }
