@@ -5,17 +5,18 @@
 <html>
 <head runat="server">
     <title></title>
-    <link href="~/Styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/styles.css" rel="stylesheet" type="text/css"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    
     <form id="form1" runat="server">
         <nav class="navbar">
-            <h1>Raiso</h1>
-            <ul>
-                <li>
-                    <a href="~/Views/LoginPage.aspx" runat="server" visible="false" id="LoginLink">Login</a>
+            <h1 class="title">Raiso</h1>
+            <ul class="ul">
+                <li class="li">
+                    <a href="~/Views/LoginPage.aspx" runat="server" visible="false" id="LoginLink" class="a">Login</a>
                 </li>
                 <li>
                     <a href="~/Views/HomePage.aspx" runat="server" visible="false" id="HomeLink">Home</a>

@@ -10,7 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <h1>
+        <h1 style="text-align: center;">
             Report Page
         </h1>
         <div>
