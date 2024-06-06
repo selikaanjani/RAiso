@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\cartpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\cartpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\cartupdatepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\cartupdatepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\updatepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\updatepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\transactionhistorypage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\transactionhistorypage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\transactiondetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\transactiondetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CartPage.aspx",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\CartPage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\CartPage.aspx",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\CartPage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\CartPage.aspx",
+              "Title": "CartUpdatePage.aspx",
+              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\CartUpdatePage.aspx",
+              "RelativeDocumentMoniker": "RAiso\\Views\\CartUpdatePage.aspx",
+              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\CartUpdatePage.aspx",
+              "RelativeToolTip": "RAiso\\Views\\CartUpdatePage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-05T23:25:57.006Z",
+              "WhenOpened": "2024-06-06T00:15:45.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UpdatePage.aspx",
+              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\UpdatePage.aspx",
+              "RelativeDocumentMoniker": "RAiso\\Views\\UpdatePage.aspx",
+              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\UpdatePage.aspx",
+              "RelativeToolTip": "RAiso\\Views\\UpdatePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:09:18.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoginPage.aspx",
               "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\LoginPage.aspx",
               "RelativeDocumentMoniker": "RAiso\\Views\\LoginPage.aspx",
@@ -63,46 +68,7 @@
               "RelativeToolTip": "RAiso\\Views\\LoginPage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-05T23:24:53.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomePage.aspx",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\HomePage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\HomePage.aspx",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\HomePage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\HomePage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-05T23:22:34.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransactionDetailPage.aspx",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\TransactionDetailPage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\TransactionDetailPage.aspx",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\TransactionDetailPage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\TransactionDetailPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-05T23:20:49.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransactionHistoryPage.aspx",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\TransactionHistoryPage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\TransactionHistoryPage.aspx",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\TransactionHistoryPage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\TransactionHistoryPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-05T23:20:24.123Z",
+              "WhenOpened": "2024-06-06T00:05:26.487Z",
               "EditorCaption": ""
             }
           ]

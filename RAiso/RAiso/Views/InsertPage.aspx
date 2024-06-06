@@ -67,7 +67,8 @@
     <asp:Label ID="ErrorLbl" runat="server" Text="" Visible="false"></asp:Label>
     <br />
     <div>
-        <asp:Button ID="InsertBtn" runat="server" Text="Insert" OnClick="InsertBtn_Click" Style="margin: 0 auto; display: block; width: 50%; background-color: #7a7a7a; color: #fff; cursor: pointer; transition: background-color 0.3s; border: none; border-radius: 3px; padding: 10px; font-size: 1.1rem;" />
+        <asp:Button ID="InsertBtn" runat="server" Text="Insert" OnClick="InsertBtn_Click" 
+            Style="margin: 0 auto; display: block; width: 50%; background-color: #7a7a7a; color: #fff; cursor: pointer; transition: background-color 0.3s; border: none; border-radius: 3px; padding: 10px; font-size: 1.1rem;" />
 
     </div>
 
