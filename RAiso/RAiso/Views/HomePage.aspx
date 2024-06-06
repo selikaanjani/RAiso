@@ -56,6 +56,31 @@
             .myButtons:hover {
                 background-color: #0056b3;
             }
+
+        .center-button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            width: 100%; 
+            box-sizing: border-box; 
+            margin: 0;
+        }
+
+        .center-button {
+            background-color: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none; 
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-left: 40%;
+        }
+
+            .center-button:hover {
+                background-color: #5a6268; /* Darker gray on hover */
+            }
     </style>
     <div>
         <br />
@@ -63,7 +88,7 @@
         <h1 style="text-align: center;">Raiso's stationeries</h1>
         <br />
     </div>
-    <asp:Button ID="InsertBtn" runat="server" Text="Insert another stationeries here!" OnClick="InsertBtn_Click" Style="background-color: #495057; color: white; padding: 10px 20px; border-radius: 5px;" />
+    <asp:Button ID="InsertBtn" runat="server" Text="Insert another stationeries here!" OnClick="InsertBtn_Click" CssClass="center-button" />
     <br />
     <br />
     <asp:GridView CssClass="myGridView" ID="StGV" runat="server" AutoGenerateColumns="False" OnRowEditing="StGV_RowEditing" OnRowDeleting="StGV_RowDeleting" OnRowCommand="StGV_RowCommand">

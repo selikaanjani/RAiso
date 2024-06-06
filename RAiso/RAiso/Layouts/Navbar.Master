@@ -5,12 +5,75 @@
 <html>
 <head runat="server">
     <title></title>
-    <link href="../Styles/styles.css" rel="stylesheet" type="text/css"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding: 10px;
+        }
+        .navbar .title {
+            color: #fff;
+            position: absolute;
+            left: 20px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar ul li {
+            margin: 0 10px;
+        }
+        .navbar ul li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar ul li a:hover {
+            background-color: #575757;
+        }
+        .navbar div {
+            position: absolute;
+            right: 20px;
+        }
+        .navbar div .aspNetButton {
+            background-color: #fff;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .navbar div .aspNetButton:hover {
+            background-color: #d32f2f;
+        }
+    </style>
 </head>
 <body>
-    
     <form id="form1" runat="server">
         <nav class="navbar">
             <h1 class="title">Raiso</h1>
@@ -38,7 +101,7 @@
                 </li>
             </ul>
             <div>
-                <asp:Button ID="LogoutBtn" runat="server" Text="Logout" Visible="false" OnClick="LogoutBtn_Click" />
+                <asp:Button ID="LogoutBtn" runat="server" Text="Logout" Visible="false" CssClass="aspNetButton" OnClick="LogoutBtn_Click" />
             </div>
         </nav>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -46,4 +109,3 @@
     </form>
 </body>
 </html>
-

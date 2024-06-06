@@ -41,20 +41,3 @@ body {
         color: #007bff;
     }
 
-/* Button styles */
-#LogoutBtn {
-    background-color: #495057;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-    #LogoutBtn:hover {
-        background-color: #005f75;
-    }

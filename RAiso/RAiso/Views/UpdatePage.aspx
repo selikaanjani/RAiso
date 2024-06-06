@@ -50,7 +50,7 @@
     </style>
     <br />
     <br />
-    <h3 style="text-align: center;">Update stationery page</h3>
+    <h2 style="text-align: center;">Update stationery page</h2>
     <br />
     <br />
     <div class="container" >

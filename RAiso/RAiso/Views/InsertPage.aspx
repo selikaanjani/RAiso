@@ -50,7 +50,7 @@
     </style>
     <!-- isi content web di sini -->
     <br />
-    <h3 style="text-align: center;">Insert stationery page</h3>
+    <h2 style="text-align: center;">Insert stationery page</h2>
     <br />
     <br />
 
