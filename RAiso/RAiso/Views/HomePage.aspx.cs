@@ -109,7 +109,7 @@ namespace RAiso.Views
 
             foreach (TransactionDetail transactionDetail in transactionDetails)
             {
-                if (transactionDetail.StationeryID == id)
+                if (transactionDetail.StationeryID == id && tdc.fetchAllById(transactionDetail.TransactionID).Count == 1)
                 {
                     thc.remove(transactionDetail.TransactionID);
                 }

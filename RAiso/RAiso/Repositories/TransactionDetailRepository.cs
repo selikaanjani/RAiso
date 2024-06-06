@@ -39,6 +39,6 @@ namespace RAiso.Repositories
         public List<TransactionDetail> fetchAllById(int id)
         {
             return (from x in db.TransactionDetails where x.TransactionID == id select x).ToList();
-        } 
+        }
     }
 }
