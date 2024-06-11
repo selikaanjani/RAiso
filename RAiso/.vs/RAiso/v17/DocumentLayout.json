@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\updatepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\updatepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\insertpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\insertpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\views\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\raiso\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\raiso\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|c:\\documents\\github\\new\\raiso\\raiso\\raiso\\layouts\\navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{87F0A583-B80C-4674-A98D-D21A115BA193}|RAiso\\RAiso.csproj|solutionrelative:raiso\\layouts\\navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,84 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdatePage.aspx",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\UpdatePage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\UpdatePage.aspx",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\UpdatePage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\UpdatePage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-06T14:11:28.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InsertPage.aspx",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\InsertPage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\InsertPage.aspx",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\InsertPage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\InsertPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-06T14:11:09.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePage.aspx",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\HomePage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\HomePage.aspx",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\HomePage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\HomePage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-06T14:01:08.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Styles\\styles.css",
-              "RelativeDocumentMoniker": "RAiso\\Styles\\styles.css",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Styles\\styles.css",
-              "RelativeToolTip": "RAiso\\Styles\\styles.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-06T07:59:42.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Navbar.Master",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Layouts\\Navbar.Master",
-              "RelativeDocumentMoniker": "RAiso\\Layouts\\Navbar.Master",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Layouts\\Navbar.Master",
-              "RelativeToolTip": "RAiso\\Layouts\\Navbar.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-06T07:59:29.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginPage.aspx",
-              "DocumentMoniker": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\LoginPage.aspx",
-              "RelativeDocumentMoniker": "RAiso\\Views\\LoginPage.aspx",
-              "ToolTip": "C:\\Documents\\GitHub\\NEW\\RAiso\\RAiso\\RAiso\\Views\\LoginPage.aspx",
-              "RelativeToolTip": "RAiso\\Views\\LoginPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-06T07:58:48.77Z",
-              "EditorCaption": ""
             }
           ]
         }
