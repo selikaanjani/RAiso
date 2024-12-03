@@ -444,20 +444,243 @@ C:\Documents\GitHub\NEW\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInpu
 C:\Documents\GitHub\NEW\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
 C:\Documents\GitHub\NEW\RAiso\RAiso\RAiso\obj\Debug\RAiso.dll
 C:\Documents\GitHub\NEW\RAiso\RAiso\RAiso\obj\Debug\RAiso.pdb
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.Web.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Controllers.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Prompting.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\Users\user\Documents\GitHub\RAiso\RAiso\RAiso\bin\stdole.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\RAiso.dll.config
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\RAiso.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\RAiso.pdb
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\csc.exe
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\csc.exe.config
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\csc.rsp
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\csi.exe
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\csi.exe.config
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\csi.rsp
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.AppContext.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Console.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe.config
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\vbc.rsp
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.Web.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\EntityFramework.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\stdole.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\EntityFramework.xml
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\obj\Debug\RAiso.dll
+C:\Documents\BINUS\PSD LAB GRUP A 100\RAiso\RAiso\RAiso\obj\Debug\RAiso.pdb
+C:\Users\thorn\Documents\RAiso\RAiso\bin\RAiso.dll.config
+C:\Users\thorn\Documents\RAiso\RAiso\bin\RAiso.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\RAiso.pdb
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\csc.exe
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\csc.exe.config
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\csc.rsp
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\csi.exe
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\csi.exe.config
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\csi.rsp
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.AppContext.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Console.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\vbc.exe
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\vbc.exe.config
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\vbc.rsp
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
+C:\Users\thorn\Documents\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.Web.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\EntityFramework.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\stdole.dll
+C:\Users\thorn\Documents\RAiso\RAiso\bin\EntityFramework.xml
+C:\Users\thorn\Documents\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
+C:\Users\thorn\Documents\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thorn\Documents\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
+C:\Users\thorn\Documents\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
+C:\Users\thorn\Documents\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
+C:\Users\thorn\Documents\RAiso\RAiso\obj\Debug\RAiso.dll
+C:\Users\thorn\Documents\RAiso\RAiso\obj\Debug\RAiso.pdb
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\RAiso.dll.config
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\RAiso.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\RAiso.pdb
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\csc.exe
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\csc.exe.config
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\csc.rsp
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\csi.exe
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\csi.exe.config
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\csi.rsp
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.AppContext.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Console.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\vbc.exe
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\vbc.exe.config
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\vbc.rsp
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.Web.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\EntityFramework.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\stdole.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\EntityFramework.xml
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\obj\Debug\RAiso.dll
+C:\Downloads\2602129292_BQ01_COMP6114001_0004ae70-2792-11ef-acd0-cd2901cec02b\PSD LAB GRUP A 100\RAiso\RAiso\obj\Debug\RAiso.pdb
